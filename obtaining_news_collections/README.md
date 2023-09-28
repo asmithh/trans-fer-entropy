@@ -1,0 +1,1 @@
+NOTE: The article texts data files saved has duplicates that must be removed! Duplication came from mediaclouds file. Use the headline text to remove duplicate articles before any analysis!
