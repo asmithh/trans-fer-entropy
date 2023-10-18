@@ -1,1 +1,2 @@
-NOTE: The article texts data files saved has duplicates that must be removed! Duplication came from mediaclouds file. Use the headline text to remove duplicate articles before any analysis!
+get_*_with_mediacloud_data.ipynb: gets the raw text data for articles for various groups of media
+de_dup.ipynb: de-duplicates and creates processed version of article data for analysis
