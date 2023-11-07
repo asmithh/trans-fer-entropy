@@ -55,14 +55,20 @@ def symbolize(x: list[float],
     while not idx > (lenx-w):
         if idx == 0:
             l = x[idx:idx+w]
-            sorted_list = sorted(l)
-            rank_dict: dict[float, int] = {value: i for i, value in enumerate(sorted_list)}
-            ranked_list = tuple(rank_dict[x] + 1 for x in l) # Adding 1 to start ranking from 1
+            indices = list(range(len(l)))
+            indices.sort(key=lambda x: l[x])
+            output = [0] * len(indices)
+            for i, j in enumerate(indices):
+                output[j] = i+1 # Adding 1 to start ranking from 1
+            ranked_list = tuple(output) 
         else:
             l = x[idx+s:idx+s+w]
-            sorted_list = sorted(l)
-            rank_dict: dict[float, int] = {value: i for i, value in enumerate(sorted_list)}
-            ranked_list = tuple(rank_dict[x] + 1 for x in l)  # Adding 1 to start ranking from 1
+            indices = list(range(len(l)))
+            indices.sort(key=lambda x: l[x])
+            output = [0] * len(indices)
+            for i, j in enumerate(indices):
+                output[j] = i+1 # Adding 1 to start ranking from 1
+            ranked_list = tuple(output) 
 
         symx.append(ranked_list)
         idx += s+w
@@ -86,8 +92,6 @@ def symbolic_transfer_entropy(x: list[float],
     :return: transfer entropy from x to y, in bits
     """
 
-    T = len(x)
-
     # define the ensemble space
     ensemble = Symbol(w)
 
@@ -101,20 +105,28 @@ def symbolic_transfer_entropy(x: list[float],
 
     del symx
     del symy
+    
+    T = len(labeled_symx)
 
     labels = list(ensemble.labels.keys())
 
     # creating the outcome space
     pspace = np.zeros((len(labels),)*3)
+    
 
     for t in range(T-1):
-        pspace[labeled_symx[t+1], labeled_symx[t], labeled_symy[t]] += 1
+        try:
+            pspace[labeled_symx[t+1], labeled_symx[t], labeled_symy[t]] += 1
+        except IndexError:
+            print(labeled_symx[t+1])
+            break
 
     norm = np.sum(pspace)
 
-    assert norm == T-1 == T-1, "Matrix sum, X, and Y not equal."
+    assert norm == T-1, "Matrix sum, X, and Y not equal."
 
     te_terms = list()
+    
 
     # Calculating Transfer Entropy
     for t in range(T-1):
@@ -133,15 +145,4 @@ def symbolic_transfer_entropy(x: list[float],
         te_terms.append(pxtxy * log2(pcondy/pcondx))
 
     return sum(te_terms)
-
-
-
-
-
-
-
-
-
-
-
 
