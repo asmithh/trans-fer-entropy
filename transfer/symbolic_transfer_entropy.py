@@ -6,7 +6,7 @@ from math import log2
 """
 symbolic_transfer_entropy.py is a script to calculate the Symbolic Transfer Entropy (STE) between two random variables. 
 The limiting dimension is the symbol window length (embedding dimension) because the computation for requires 
-an integer array of size (w-1)! x (w-1)! x (w-1)!
+an integer array of size w! x w! x w!
 
 Sagar Kumar, 2023
 """
@@ -20,8 +20,8 @@ class Symbol:
         """
         A Symbol is a container for the ensemble of possible permutations of window length w
 
-        :param w: (aka embedding dimension m=w-1) Symbol window length. Leads to ensemble size of (w-1)! and
-        (w-1)-tuple of symbols. e.g. w=4 => {(down, down, down), (up, down, down), ...}
+        :param w: (aka embedding dimension) Symbol window length. Leads to ensemble size of w! and
+        w-tuple of symbols. e.g. w=3 => {(3,2,1), (2,1,3), ...}
         """
 
         self.ensemble: list[tuple[int]] = list(permutations(range(1,w+1)))
@@ -38,13 +38,12 @@ def symbolize(x: list[float],
         if len(X) - w % s != 0, X will be truncated.
 
         :param x: "Sequence of evenly spaced observations."
-        :param w: (aka embedding dimension m=w-1) Symbol window length. Leads to ensemble size of (w-1)! and
-        (w-1)-tuple of symbols. e.g. w=4 => {(down, down, down), (up, down, down), ...}
+        :param w: (aka embedding dimension) Symbol window length. Leads to ensemble size of w! and
+        w-tuple of symbols. e.g. w=3 => {(3,2,1), (2,1,3), ...}
         :param s: (aka time delay) Sliding window, so that a window of size w slides s discrete time points to create
         the next point in the symbolic output. Default = 1.
 
-        :return symX: list of lists of length w-1 where each entry is either -1, 0, 1 depending on if time series
-        value is going up or down
+        :return symX: list of lists of length w where each entry is an integer rank in ascending order
     """
 
     lenx = len(x)
