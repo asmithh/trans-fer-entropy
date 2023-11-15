@@ -68,7 +68,7 @@ def load_and_process_pickle(pkl, count_threshold=5):
 
     return df_ts_kw, thresholded_kws
     
-pkl_x = pickle.load(open('/home/pranavgoel/trans-fer-entropy/keyword_extraction/california_url_to_dated_keywords.pkl', 'rb'))
+pkl_x = pickle.load(open('/home/pranavgoel/trans-fer-entropy/keyword_extraction/newyork_url_to_dated_keywords.pkl', 'rb'))
 pkl_y = pickle.load(open('/home/pranavgoel/trans-fer-entropy/keyword_extraction/nytimes_foxnews_url_to_dated_keywords.pkl', 'rb'))
 
 pkl_y_nyt = {k: v for k, v in pkl_y.items() if 'nytimes.com' in k}
@@ -86,10 +86,10 @@ for kw in list(overlap_kws):
     kw_scores_y_on_x.append((kw, symbolic_transfer_entropy(x, y, 5)))
     kw_scores_x_on_y.append((kw, symbolic_transfer_entropy(y, x, 5)))
 
-with open('nyt_on_ca_w_5.txt', 'w') as f:
+with open('results/nyt_on_ny_w_5.txt', 'w') as f:
     for line in sorted(kw_scores_y_on_x, key=lambda b: b[1], reverse=True)[0:200]:
         f.write(','.join([str(l) for l in line]) + '\n')
 
-with open('ca_on_nyt_w_5.txt', 'w') as f:
+with open('results/ny_on_nyt_w_5.txt', 'w') as f:
     for line in sorted(kw_scores_x_on_y, key=lambda b: b[1], reverse=True)[0:200]:
         f.write(','.join([str(l) for l in line]) + '\n')
