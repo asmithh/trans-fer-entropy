@@ -7,3 +7,5 @@ Code used to extract and save dated keywords: extract_and_save_keywords_for_all_
 The keywords are contained in *_url_to_dated_keywords.pkl as dictionaries of the following format:
 
 Key (of the dict) = URL; Value = [(timestamp, [(score, keyword/phrase), ...]), (), ...] 
+
+NOTE: create_sep_nytimes_foxnews_keyword_timeseries.py creates separate keyword-timeseries for nytimes and foxnews. 
