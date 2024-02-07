@@ -10,10 +10,8 @@ Attributes:
     
 Functions:
     obtain_national_domain_set: Return set of national news domains using existing classification dataset. 
-    topic_model_training: Using the full dataframe, obtains the texts (article headlines and stories), preprocesses them to create training data, and trains various topic model for different values of K or num_topics. 
-    add_topic_distribution_to_combined_data_csv: For a specified value of K (num_topics), loads the doc-topic distributions, and saves that as added columns to the csv data. 
-    save_url_to_topic_distributions_mapping: For a specified value of K (num_topics), loads the doc-topic distributions, and saves that as URL -> list of topic distribution values.
-
+    filter_national_domains_in_state_collections_and_display_stats: Filter out national domain in state article collection files, display pre- and post-filtering sizes for each state, and save the new files.
+    
 @author: Pranav Goel
 """
 
