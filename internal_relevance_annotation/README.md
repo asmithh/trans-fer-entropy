@@ -6,7 +6,7 @@ Here, we create and save a sample of 100 articles from across our dataset, for m
 
 **Annotation instructions:** 
 
-In each row, fill the cell in the last column titled `Relevance_Label` as either 1 or 0. 1 indicates the article talks about transgender people and/or transgender-specific issues. A mention of trans rights or transgender people in passing along with a bunch of other discussions in the article still makes it relevant for our purposes. Irrelevant articles won't mention or discuss trans issues at all, and the "trans" keyword would happen by-way of terminology used in fields like biotech, etc. 
+In each row, fill the cell in the last column titled `Relevance_Label` as either 1 or 0. 1 indicates the article talks about transgender people and/or transgender-specific issues. A mention of trans rights or transgender people in passing along with a bunch of other discussions in the article still makes it relevant for our purposes. Irrelevant articles won't mention or discuss trans issues at all, and the "trans" keyword would happen by way of terminology used in fields like biotech, etc. 
 
 After labeling all 100 articles with 1/0 in the last column, save your file (as a .csv -- in the same format) by adding an underscore followed by your initials at the end to the filename; for example, Pranav Goel will save the file as `sample_for_relevance_annotation_pg.csv` after labeling is complete. 
 
