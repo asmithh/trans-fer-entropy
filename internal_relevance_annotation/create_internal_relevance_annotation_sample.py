@@ -9,7 +9,7 @@ Attributes:
     
 Functions:
     load_and_combine_article_data: Loads all the article files representing various media groups (the 6 states + nytimes+foxnews) and concatenates them as one dataframe, while retaining only the relevant columns. 
-    : 
+    create_and_save_annotation_sample: Creates and save random sample for annotation. 
     
 @author: Pranav Goel
 """
