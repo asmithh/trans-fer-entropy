@@ -1,5 +1,5 @@
 """
-This code borrows trains MALLET topic model(s) on combined article text data, saving all the outputs of the model, and also adding the topic probabilities to the combined data file. And saving the url to topic distribution mapping itself. Topics themselves will be interpreted and displayed (in terms of top words and top documents) in interpret_topic_modeling_output.ipynb.
+This script will display the numbers before and after removal of articles by national outlets in each of the six state collections, and save filtered files for later usage in the project. 
 
 Attributes:
     DOMAIN_CLASSIFICATIONS_FILEPATH: File with domain classifications (local, national, INCONSISTENT); see README for details. 
