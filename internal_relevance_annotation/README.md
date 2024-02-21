@@ -1,8 +1,16 @@
-Here, we create and save a sample of 100 articles from across our dataset, for manual annotation: binary (1/0) labeling of each article as _relevant_ or not. An article is _relevant_ if it discusses transgender-specific-issues in any way, shape, or form. 
+Here, we create and save a sample of 100 articles from across our dataset, for manual annotation: binary (1/0) labeling of each article as _relevant_ or not. An article is _relevant_ if it discusses transgender-specific-issues in any way, shape, or form. We then split annotated samples into train-test set, for training a few-shot classifier. This few shot classifier will then be applied to our entire dataset (at`/home/pranavgoel/trans-fer-entropy/national_outlet_filtering_in_state_collections/data_with_national_outlets_removed_in_state_collections/`) to filter out irrelevant articles. 
 
 `create_internal_relevance_annotation_sample.py`: Code for creating the aforementioned annotation file, that'd be hand-coded by each annotator independently.
 
-`annotation_files/sample_for_relevance_annotation.csv`: File with article information, in order to label them for relevance. 
+`annotation_files/sample_for_relevance_annotation.csv`: File with article information, for annotation (instructions below). 
+
+`analyze_annotator_agreement.ipynb`: Notebook analyzing the inter-annotator-agreement between the three annotators on binary relevance. 
+
+`train_test_split.py`: Splitting annotated sample data into training (for few-shot classifier) and testing (the few-shot classifier). 
+
+`train_sample_for_relevance_classifier.csv`: Labeled training data file (for few-shot classifier). 
+
+`test_sample_for_relevance_classifier.csv`: Labeled test data file (for few-shot classifier). 
 
 **Annotation instructions:** 
 
