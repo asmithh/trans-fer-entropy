@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+    "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg contentScriptType="text/ecmascript" width="216.76172"
+     xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify"
+     contentStyleType="text/css"
+     viewBox="-74.000000 -272.000000 216.761719 544.000000" height="544.0"
+     preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+     version="1.1">
+    <g id="edges">
+        <path fill="none" stroke-width="1.0"
+              d="M -63.543579,-261.588928 C 66.509430,-182.370789 142.761719,131.535919 63.543579,261.588928"
+              class="id_jewishpress.com id_knzr.com" stroke-opacity="1.0"
+              stroke="#000000"/>
+    </g>
+    <g id="nodes">
+        <circle fill-opacity="1.0" fill="#3fb17d" r="10.0" cx="-63.54358"
+                class="id_jewishpress.com" cy="-261.58893" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#ee7993" r="10.0" cx="63.54358"
+                class="id_knzr.com" cy="261.58893" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+    </g>
+    <g id="node-labels">
+        <text font-size="24" x="-63.54358" y="-256.0313" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_jewishpress.com">
+            jewishpress.com
+        </text>
+        <text font-size="24" x="63.54358" y="265.95416" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_knzr.com">
+            knzr.com
+        </text>
+    </g>
+</svg>

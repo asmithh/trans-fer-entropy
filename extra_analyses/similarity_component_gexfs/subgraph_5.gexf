@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2024-04-01">
+    <creator>NetworkX 2.6.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="1" title="dist_list" type="long" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="dset" type="string" />
+    </attributes>
+    <nodes>
+      <node id="jewishpress.com" label="jewishpress.com">
+        <attvalues>
+          <attvalue for="0" value="newyork" />
+        </attvalues>
+      </node>
+      <node id="knzr.com" label="knzr.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="jewishpress.com" target="knzr.com" id="0" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

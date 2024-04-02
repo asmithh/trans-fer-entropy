@@ -1,0 +1,3288 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2024-04-01">
+    <creator>NetworkX 2.6.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="1" title="dist_list" type="long" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="dset" type="string" />
+    </attributes>
+    <nodes>
+      <node id="New York Times" label="New York Times">
+        <attvalues>
+          <attvalue for="0" value="New York Times" />
+        </attvalues>
+      </node>
+      <node id="Useful Links - New York Times Newsroom Guide to Useful Web Sites" label="Useful Links - New York Times Newsroom Guide to Useful Web Sites">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="http://www.hoffmania.com/" label="http://www.hoffmania.com/">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="abc7chicago.com" label="abc7chicago.com">
+        <attvalues>
+          <attvalue for="0" value="illinois" />
+        </attvalues>
+      </node>
+      <node id="abc30.com" label="abc30.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="abc13.com" label="abc13.com">
+        <attvalues>
+          <attvalue for="0" value="texas" />
+        </attvalues>
+      </node>
+      <node id="7online.com" label="7online.com">
+        <attvalues>
+          <attvalue for="0" value="newyork" />
+        </attvalues>
+      </node>
+      <node id=" The Caucus - New York Times Political Blog" label=" The Caucus - New York Times Political Blog">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="myhighplains.com" label="myhighplains.com">
+        <attvalues>
+          <attvalue for="0" value="texas" />
+        </attvalues>
+      </node>
+      <node id="yourcentralvalley.com" label="yourcentralvalley.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="wkbn.com" label="wkbn.com">
+        <attvalues>
+          <attvalue for="0" value="ohio" />
+        </attvalues>
+      </node>
+      <node id="mystateline.com" label="mystateline.com">
+        <attvalues>
+          <attvalue for="0" value="illinois" />
+        </attvalues>
+      </node>
+      <node id="wjbdradio.com" label="wjbdradio.com">
+        <attvalues>
+          <attvalue for="0" value="illinois" />
+        </attvalues>
+      </node>
+      <node id="ksro.com" label="ksro.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="kvia.com" label="kvia.com">
+        <attvalues>
+          <attvalue for="0" value="texas" />
+        </attvalues>
+      </node>
+      <node id="kesq.com" label="kesq.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="Ft. Bragg Advocate-News" label="Ft. Bragg Advocate-News">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="The Reporter" label="The Reporter">
+        <attvalues>
+          <attvalue for="0" value="illinois" />
+        </attvalues>
+      </node>
+      <node id="New York News - NY News | The Daily Freeman" label="New York News - NY News | The Daily Freeman">
+        <attvalues>
+          <attvalue for="0" value="newyork" />
+        </attvalues>
+      </node>
+      <node id="morningjournal.com" label="morningjournal.com">
+        <attvalues>
+          <attvalue for="0" value="ohio" />
+        </attvalues>
+      </node>
+      <node id="New York Post" label="New York Post">
+        <attvalues>
+          <attvalue for="0" value="newyork" />
+        </attvalues>
+      </node>
+      <node id="auroraadvocate.com" label="auroraadvocate.com">
+        <attvalues>
+          <attvalue for="0" value="ohio" />
+        </attvalues>
+      </node>
+      <node id="yourvalleyvoice.com" label="yourvalleyvoice.com">
+        <attvalues>
+          <attvalue for="0" value="texas" />
+        </attvalues>
+      </node>
+      <node id="KTSM" label="KTSM">
+        <attvalues>
+          <attvalue for="0" value="texas" />
+        </attvalues>
+      </node>
+      <node id="fox8.com" label="fox8.com">
+        <attvalues>
+          <attvalue for="0" value="ohio" />
+        </attvalues>
+      </node>
+      <node id="Chico Enterprise Record" label="Chico Enterprise Record">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="Brentwood News - United States (Brentwood)" label="Brentwood News - United States (Brentwood)">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="Daily Democrat Online" label="Daily Democrat Online">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="news10.com" label="news10.com">
+        <attvalues>
+          <attvalue for="0" value="newyork" />
+        </attvalues>
+      </node>
+      <node id="ktla.com" label="ktla.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="examiner.org" label="examiner.org">
+        <attvalues>
+          <attvalue for="0" value="ohio" />
+        </attvalues>
+      </node>
+      <node id="wmay.com" label="wmay.com">
+        <attvalues>
+          <attvalue for="0" value="illinois" />
+        </attvalues>
+      </node>
+      <node id="kion546.com" label="kion546.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="cw39.com" label="cw39.com">
+        <attvalues>
+          <attvalue for="0" value="texas" />
+        </attvalues>
+      </node>
+      <node id="WWTI" label="WWTI">
+        <attvalues>
+          <attvalue for="0" value="newyork" />
+        </attvalues>
+      </node>
+      <node id="kron4.com" label="kron4.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="newyork.cbslocal.com" label="newyork.cbslocal.com">
+        <attvalues>
+          <attvalue for="0" value="newyork" />
+        </attvalues>
+      </node>
+      <node id="dfw.cbslocal.com" label="dfw.cbslocal.com">
+        <attvalues>
+          <attvalue for="0" value="texas" />
+        </attvalues>
+      </node>
+      <node id="gooddaysacramento.cbslocal.com" label="gooddaysacramento.cbslocal.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="miami.cbslocal.com" label="miami.cbslocal.com">
+        <attvalues>
+          <attvalue for="0" value="florida" />
+        </attvalues>
+      </node>
+      <node id="chicago.cbslocal.com" label="chicago.cbslocal.com">
+        <attvalues>
+          <attvalue for="0" value="illinois" />
+        </attvalues>
+      </node>
+      <node id="newzjunky.com" label="newzjunky.com">
+        <attvalues>
+          <attvalue for="0" value="newyork" />
+        </attvalues>
+      </node>
+      <node id="sanfrancisco.cbslocal.com" label="sanfrancisco.cbslocal.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="News from La Quinta | The Desert Sun | mydesert.com" label="News from La Quinta | The Desert Sun | mydesert.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="Orlando Sentinel" label="Orlando Sentinel">
+        <attvalues>
+          <attvalue for="0" value="florida" />
+        </attvalues>
+      </node>
+      <node id="sacramento.cbslocal.com" label="sacramento.cbslocal.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="Austin American-Statesman " label="Austin American-Statesman ">
+        <attvalues>
+          <attvalue for="0" value="texas" />
+        </attvalues>
+      </node>
+      <node id="losangeles.cbslocal.com" label="losangeles.cbslocal.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="wfla.com" label="wfla.com">
+        <attvalues>
+          <attvalue for="0" value="florida" />
+        </attvalues>
+      </node>
+      <node id="KGET" label="KGET">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="Oneida Daily Dispatch - Latest News, Sports, Opinion, Entertainment, Business, Life" label="Oneida Daily Dispatch - Latest News, Sports, Opinion, Entertainment, Business, Life">
+        <attvalues>
+          <attvalue for="0" value="newyork" />
+        </attvalues>
+      </node>
+      <node id="wdtn.com" label="wdtn.com">
+        <attvalues>
+          <attvalue for="0" value="ohio" />
+        </attvalues>
+      </node>
+      <node id="fox5sandiego.com" label="fox5sandiego.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="bigcountryhomepage.com" label="bigcountryhomepage.com">
+        <attvalues>
+          <attvalue for="0" value="texas" />
+        </attvalues>
+      </node>
+      <node id="USA Today" label="USA Today">
+        <attvalues>
+          <attvalue for="0" value="ohio" />
+        </attvalues>
+      </node>
+      <node id="whbf.com" label="whbf.com">
+        <attvalues>
+          <attvalue for="0" value="illinois" />
+        </attvalues>
+      </node>
+      <node id="clickorlando.com" label="clickorlando.com">
+        <attvalues>
+          <attvalue for="0" value="florida" />
+        </attvalues>
+      </node>
+      <node id="ksat.com" label="ksat.com">
+        <attvalues>
+          <attvalue for="0" value="texas" />
+        </attvalues>
+      </node>
+      <node id="local10.com" label="local10.com">
+        <attvalues>
+          <attvalue for="0" value="florida" />
+        </attvalues>
+      </node>
+      <node id="click2houston.com" label="click2houston.com">
+        <attvalues>
+          <attvalue for="0" value="texas" />
+        </attvalues>
+      </node>
+      <node id="news4jax.com" label="news4jax.com">
+        <attvalues>
+          <attvalue for="0" value="florida" />
+        </attvalues>
+      </node>
+      <node id="mynews13.com" label="mynews13.com">
+        <attvalues>
+          <attvalue for="0" value="florida" />
+        </attvalues>
+      </node>
+      <node id="kxas nbc 5" label="kxas nbc 5">
+        <attvalues>
+          <attvalue for="0" value="texas" />
+        </attvalues>
+      </node>
+      <node id="pix11.com" label="pix11.com">
+        <attvalues>
+          <attvalue for="0" value="newyork" />
+        </attvalues>
+      </node>
+      <node id="South Florida Sun-Sentinel" label="South Florida Sun-Sentinel">
+        <attvalues>
+          <attvalue for="0" value="florida" />
+        </attvalues>
+      </node>
+      <node id="marconews.com" label="marconews.com">
+        <attvalues>
+          <attvalue for="0" value="florida" />
+        </attvalues>
+      </node>
+      <node id="wgntv.com" label="wgntv.com">
+        <attvalues>
+          <attvalue for="0" value="illinois" />
+        </attvalues>
+      </node>
+      <node id="ny1.com" label="ny1.com">
+        <attvalues>
+          <attvalue for="0" value="newyork" />
+        </attvalues>
+      </node>
+      <node id="baynews9.com" label="baynews9.com">
+        <attvalues>
+          <attvalue for="0" value="florida" />
+        </attvalues>
+      </node>
+      <node id="Community News - United States - New York" label="Community News - United States - New York">
+        <attvalues>
+          <attvalue for="0" value="newyork" />
+        </attvalues>
+      </node>
+      <node id="Boca Raton Forum" label="Boca Raton Forum">
+        <attvalues>
+          <attvalue for="0" value="florida" />
+        </attvalues>
+      </node>
+      <node id="The Saratogian - Latest News, Sports, Opinion, Entertainment, Business, Life" label="The Saratogian - Latest News, Sports, Opinion, Entertainment, Business, Life">
+        <attvalues>
+          <attvalue for="0" value="newyork" />
+        </attvalues>
+      </node>
+      <node id="The Troy Record - Latest News, Sports, Opinion, Entertainment, Business" label="The Troy Record - Latest News, Sports, Opinion, Entertainment, Business">
+        <attvalues>
+          <attvalue for="0" value="newyork" />
+        </attvalues>
+      </node>
+      <node id="Boynton Forum" label="Boynton Forum">
+        <attvalues>
+          <attvalue for="0" value="florida" />
+        </attvalues>
+      </node>
+      <node id="ktsa.com" label="ktsa.com">
+        <attvalues>
+          <attvalue for="0" value="texas" />
+        </attvalues>
+      </node>
+      <node id="kxan.com" label="kxan.com">
+        <attvalues>
+          <attvalue for="0" value="texas" />
+        </attvalues>
+      </node>
+      <node id="wgnradio.com" label="wgnradio.com">
+        <attvalues>
+          <attvalue for="0" value="illinois" />
+        </attvalues>
+      </node>
+      <node id="thesouthern.com" label="thesouthern.com">
+        <attvalues>
+          <attvalue for="0" value="illinois" />
+        </attvalues>
+      </node>
+      <node id="AuburnPub" label="AuburnPub">
+        <attvalues>
+          <attvalue for="0" value="newyork" />
+        </attvalues>
+      </node>
+      <node id="Southern Business Journal" label="Southern Business Journal">
+        <attvalues>
+          <attvalue for="0" value="illinois" />
+        </attvalues>
+      </node>
+      <node id="central illinois proud" label="central illinois proud">
+        <attvalues>
+          <attvalue for="0" value="illinois" />
+        </attvalues>
+      </node>
+      <node id="cltv.com" label="cltv.com">
+        <attvalues>
+          <attvalue for="0" value="illinois" />
+        </attvalues>
+      </node>
+      <node id="silive.com" label="silive.com">
+        <attvalues>
+          <attvalue for="0" value="newyork" />
+        </attvalues>
+      </node>
+      <node id="News Sun - United States - Ohio" label="News Sun - United States - Ohio">
+        <attvalues>
+          <attvalue for="0" value="ohio" />
+        </attvalues>
+      </node>
+      <node id="Ohio News Network" label="Ohio News Network">
+        <attvalues>
+          <attvalue for="0" value="ohio" />
+        </attvalues>
+      </node>
+      <node id="Parma Sun Post" label="Parma Sun Post">
+        <attvalues>
+          <attvalue for="0" value="ohio" />
+        </attvalues>
+      </node>
+      <node id="cleveland.com" label="cleveland.com">
+        <attvalues>
+          <attvalue for="0" value="ohio" />
+        </attvalues>
+      </node>
+      <node id="Plain Dealer" label="Plain Dealer">
+        <attvalues>
+          <attvalue for="0" value="ohio" />
+        </attvalues>
+      </node>
+      <node id="West Shore Sun" label="West Shore Sun">
+        <attvalues>
+          <attvalue for="0" value="ohio" />
+        </attvalues>
+      </node>
+      <node id="Brunswick Sun" label="Brunswick Sun">
+        <attvalues>
+          <attvalue for="0" value="ohio" />
+        </attvalues>
+      </node>
+      <node id="Syracuse.com" label="Syracuse.com">
+        <attvalues>
+          <attvalue for="0" value="newyork" />
+        </attvalues>
+      </node>
+      <node id="Deerfield Forum" label="Deerfield Forum">
+        <attvalues>
+          <attvalue for="0" value="florida" />
+        </attvalues>
+      </node>
+      <node id="suntimes.com" label="suntimes.com">
+        <attvalues>
+          <attvalue for="0" value="illinois" />
+        </attvalues>
+      </node>
+      <node id="limaohio.com" label="limaohio.com">
+        <attvalues>
+          <attvalue for="0" value="ohio" />
+        </attvalues>
+      </node>
+      <node id="nbcnewyork.com" label="nbcnewyork.com">
+        <attvalues>
+          <attvalue for="0" value="newyork" />
+        </attvalues>
+      </node>
+      <node id="nbcmiami.com" label="nbcmiami.com">
+        <attvalues>
+          <attvalue for="0" value="florida" />
+        </attvalues>
+      </node>
+      <node id="nbcchicago.com" label="nbcchicago.com">
+        <attvalues>
+          <attvalue for="0" value="illinois" />
+        </attvalues>
+      </node>
+      <node id="nbcbayarea.com" label="nbcbayarea.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="keyt.com" label="keyt.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="New York Amsterdam News" label="New York Amsterdam News">
+        <attvalues>
+          <attvalue for="0" value="newyork" />
+        </attvalues>
+      </node>
+      <node id="defendernetwork.com" label="defendernetwork.com">
+        <attvalues>
+          <attvalue for="0" value="texas" />
+        </attvalues>
+      </node>
+      <node id="nydailyrecord.com" label="nydailyrecord.com">
+        <attvalues>
+          <attvalue for="0" value="newyork" />
+        </attvalues>
+      </node>
+      <node id="watermarkonline.com" label="watermarkonline.com">
+        <attvalues>
+          <attvalue for="0" value="florida" />
+        </attvalues>
+      </node>
+      <node id="Newsday" label="Newsday">
+        <attvalues>
+          <attvalue for="0" value="newyork" />
+        </attvalues>
+      </node>
+      <node id="Hoffman Estates Review" label="Hoffman Estates Review">
+        <attvalues>
+          <attvalue for="0" value="illinois" />
+        </attvalues>
+      </node>
+      <node id="The New York Carib News" label="The New York Carib News">
+        <attvalues>
+          <attvalue for="0" value="newyork" />
+        </attvalues>
+      </node>
+      <node id="caribbeannationalweekly.com" label="caribbeannationalweekly.com">
+        <attvalues>
+          <attvalue for="0" value="florida" />
+        </attvalues>
+      </node>
+      <node id="San Diego Union Tribune" label="San Diego Union Tribune">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="LA Times" label="LA Times">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="news-herald.com" label="news-herald.com">
+        <attvalues>
+          <attvalue for="0" value="ohio" />
+        </attvalues>
+      </node>
+      <node id="Palos Verdes Peninsula News" label="Palos Verdes Peninsula News">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="Black Star News" label="Black Star News">
+        <attvalues>
+          <attvalue for="0" value="newyork" />
+        </attvalues>
+      </node>
+      <node id="Westside Gazette" label="Westside Gazette">
+        <attvalues>
+          <attvalue for="0" value="florida" />
+        </attvalues>
+      </node>
+      <node id="WSVN FOX" label="WSVN FOX">
+        <attvalues>
+          <attvalue for="0" value="florida" />
+        </attvalues>
+      </node>
+      <node id="davisvanguard.org" label="davisvanguard.org">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="nbcsandiego.com" label="nbcsandiego.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="biscayne times online" label="biscayne times online">
+        <attvalues>
+          <attvalue for="0" value="florida" />
+        </attvalues>
+      </node>
+      <node id="The Daily Breeze" label="The Daily Breeze">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="cltampa.com" label="cltampa.com">
+        <attvalues>
+          <attvalue for="0" value="florida" />
+        </attvalues>
+      </node>
+      <node id="Orlando Weekly" label="Orlando Weekly">
+        <attvalues>
+          <attvalue for="0" value="florida" />
+        </attvalues>
+      </node>
+      <node id="Fort Lauderdale News &amp; Events - Sun Sentinel" label="Fort Lauderdale News &amp; Events - Sun Sentinel">
+        <attvalues>
+          <attvalue for="0" value="florida" />
+        </attvalues>
+      </node>
+      <node id="wmnf.org" label="wmnf.org">
+        <attvalues>
+          <attvalue for="0" value="florida" />
+        </attvalues>
+      </node>
+      <node id="Coral Springs &#10;Forum" label="Coral Springs &#10;Forum">
+        <attvalues>
+          <attvalue for="0" value="florida" />
+        </attvalues>
+      </node>
+      <node id="Windy City Word" label="Windy City Word">
+        <attvalues>
+          <attvalue for="0" value="illinois" />
+        </attvalues>
+      </node>
+      <node id="variety.com" label="variety.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="utsandiego.com" label="utsandiego.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="El Sentinel " label="El Sentinel ">
+        <attvalues>
+          <attvalue for="0" value="florida" />
+        </attvalues>
+      </node>
+      <node id="Delray Forum" label="Delray Forum">
+        <attvalues>
+          <attvalue for="0" value="florida" />
+        </attvalues>
+      </node>
+      <node id="winknews.com" label="winknews.com">
+        <attvalues>
+          <attvalue for="0" value="florida" />
+        </attvalues>
+      </node>
+      <node id="Beacon News" label="Beacon News">
+        <attvalues>
+          <attvalue for="0" value="illinois" />
+        </attvalues>
+      </node>
+      <node id="abc-7.com" label="abc-7.com">
+        <attvalues>
+          <attvalue for="0" value="florida" />
+        </attvalues>
+      </node>
+      <node id="El Cerrito Journal" label="El Cerrito Journal">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="Jewish Journal - United States - Florida" label="Jewish Journal - United States - Florida">
+        <attvalues>
+          <attvalue for="0" value="florida" />
+        </attvalues>
+      </node>
+      <node id="Contra Costa Times " label="Contra Costa Times ">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="nbc-2.com" label="nbc-2.com">
+        <attvalues>
+          <attvalue for="0" value="florida" />
+        </attvalues>
+      </node>
+      <node id="kmir.com" label="kmir.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="wgcu.org" label="wgcu.org">
+        <attvalues>
+          <attvalue for="0" value="florida" />
+        </attvalues>
+      </node>
+      <node id="Rolling Meadows Review" label="Rolling Meadows Review">
+        <attvalues>
+          <attvalue for="0" value="illinois" />
+        </attvalues>
+      </node>
+      <node id="tpr.org" label="tpr.org">
+        <attvalues>
+          <attvalue for="0" value="texas" />
+        </attvalues>
+      </node>
+      <node id="fortworthbusiness.com" label="fortworthbusiness.com">
+        <attvalues>
+          <attvalue for="0" value="texas" />
+        </attvalues>
+      </node>
+      <node id="nbclosangeles.com" label="nbclosangeles.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="sanfernandosun.com" label="sanfernandosun.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="northbaybusinessjournal.com" label="northbaybusinessjournal.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="San Diego Voice and Viewpoint" label="San Diego Voice and Viewpoint">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="Berkeley Voice" label="Berkeley Voice">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="Inland Valley News" label="Inland Valley News">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="New York Times" target="Useful Links - New York Times Newsroom Guide to Useful Web Sites" id="0" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="New York Times" target="http://www.hoffmania.com/" id="1" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="New York Times" target=" The Caucus - New York Times Political Blog" id="2" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="New York Times" target="Austin American-Statesman " id="3" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="http://www.hoffmania.com/" target="New York Post" id="4" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="http://www.hoffmania.com/" target="auroraadvocate.com" id="5" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="http://www.hoffmania.com/" target="yourvalleyvoice.com" id="6" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="http://www.hoffmania.com/" target="newzjunky.com" id="7" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="http://www.hoffmania.com/" target="Austin American-Statesman " id="8" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="http://www.hoffmania.com/" target="Syracuse.com" id="9" weight="110.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="http://www.hoffmania.com/" target="kesq.com" id="10" weight="91.33333333333333">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="http://www.hoffmania.com/" target="nbcnewyork.com" id="11" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="http://www.hoffmania.com/" target="Newsday" id="12" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="http://www.hoffmania.com/" target="abc7chicago.com" id="13" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="http://www.hoffmania.com/" target="7online.com" id="14" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="http://www.hoffmania.com/" target="abc13.com" id="15" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="http://www.hoffmania.com/" target="baynews9.com" id="16" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="http://www.hoffmania.com/" target="watermarkonline.com" id="17" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="http://www.hoffmania.com/" target="mynews13.com" id="18" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="http://www.hoffmania.com/" target="WSVN FOX" id="19" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="http://www.hoffmania.com/" target="Rolling Meadows Review" id="20" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="http://www.hoffmania.com/" target="kxas nbc 5" id="21" weight="101.5">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="http://www.hoffmania.com/" target="wkbn.com" id="22" weight="94.66666666666667">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="http://www.hoffmania.com/" target="kion546.com" id="23" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="http://www.hoffmania.com/" target="LA Times" id="24" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="http://www.hoffmania.com/" target="limaohio.com" id="25" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="abc7chicago.com" target="abc30.com" id="26" weight="146.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="abc7chicago.com" target="abc13.com" id="27" weight="144.8">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="abc7chicago.com" target="7online.com" id="28" weight="146.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="abc30.com" target="abc13.com" id="29" weight="145.33333333333334">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="abc30.com" target="7online.com" id="30" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="abc13.com" target="7online.com" id="31" weight="145.33333333333334">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="myhighplains.com" target="yourcentralvalley.com" id="32" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="myhighplains.com" target="wkbn.com" id="33" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="myhighplains.com" target="mystateline.com" id="34" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="myhighplains.com" target="wgnradio.com" id="35" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="myhighplains.com" target="Ohio News Network" id="36" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="myhighplains.com" target="examiner.org" id="37" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="myhighplains.com" target="New York News - NY News | The Daily Freeman" id="38" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="yourcentralvalley.com" target="wkbn.com" id="39" weight="133.2">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="yourcentralvalley.com" target="mystateline.com" id="40" weight="133.2">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="yourcentralvalley.com" target="KTSM" id="41" weight="133.2">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="yourcentralvalley.com" target="fox8.com" id="42" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="yourcentralvalley.com" target="WWTI" id="43" weight="148.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="yourcentralvalley.com" target="KGET" id="44" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wkbn.com" target="mystateline.com" id="45" weight="134.47058823529412">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wkbn.com" target="KTSM" id="46" weight="130.15384615384616">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wkbn.com" target="wfla.com" id="47" weight="147.33333333333334">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wkbn.com" target="kron4.com" id="48" weight="144.66666666666666">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wkbn.com" target="KGET" id="49" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wkbn.com" target="WWTI" id="50" weight="149.14285714285714">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wkbn.com" target="ktla.com" id="51" weight="148.66666666666666">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wkbn.com" target="news10.com" id="52" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wkbn.com" target="wgntv.com" id="53" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wkbn.com" target="cltv.com" id="54" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wkbn.com" target="Syracuse.com" id="55" weight="122.33333333333333">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wkbn.com" target="New York News - NY News | The Daily Freeman" id="56" weight="72.66666666666667">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wkbn.com" target="Newsday" id="57" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wkbn.com" target="AuburnPub" id="58" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wkbn.com" target="Brunswick Sun" id="59" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wkbn.com" target="kxan.com" id="60" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wkbn.com" target="baynews9.com" id="61" weight="109.8">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wkbn.com" target="watermarkonline.com" id="62" weight="84.5">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wkbn.com" target="WSVN FOX" id="63" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wkbn.com" target="kxas nbc 5" id="64" weight="83.83333333333333">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wkbn.com" target="Hoffman Estates Review" id="65" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wkbn.com" target="ktsa.com" id="66" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wkbn.com" target="kesq.com" id="67" weight="86.5">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wkbn.com" target="bigcountryhomepage.com" id="68" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wkbn.com" target="The Daily Breeze" id="69" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wkbn.com" target="kion546.com" id="70" weight="94.66666666666667">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wkbn.com" target="keyt.com" id="71" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wkbn.com" target="wdtn.com" id="72" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="mystateline.com" target="KTSM" id="73" weight="134.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="mystateline.com" target="fox8.com" id="74" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="mystateline.com" target="news10.com" id="75" weight="137.33333333333334">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="mystateline.com" target="ktla.com" id="76" weight="108.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="mystateline.com" target="WWTI" id="77" weight="139.2">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="mystateline.com" target="kron4.com" id="78" weight="120.66666666666667">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="mystateline.com" target="wfla.com" id="79" weight="138.8">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="mystateline.com" target="KGET" id="80" weight="111.33333333333333">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="mystateline.com" target="wdtn.com" id="81" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="mystateline.com" target="fox5sandiego.com" id="82" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="mystateline.com" target="bigcountryhomepage.com" id="83" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="mystateline.com" target="pix11.com" id="84" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="mystateline.com" target="ktsa.com" id="85" weight="114.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="mystateline.com" target="kxan.com" id="86" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="mystateline.com" target="Orlando Sentinel" id="87" weight="101.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="mystateline.com" target="keyt.com" id="88" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="mystateline.com" target="Syracuse.com" id="89" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="mystateline.com" target="New York News - NY News | The Daily Freeman" id="90" weight="91.5">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="mystateline.com" target="AuburnPub" id="91" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="mystateline.com" target="Brunswick Sun" id="92" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="mystateline.com" target="kxas nbc 5" id="93" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="mystateline.com" target="kesq.com" id="94" weight="55.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="mystateline.com" target="Hoffman Estates Review" id="95" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="mystateline.com" target="Boynton Forum" id="96" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="mystateline.com" target="baynews9.com" id="97" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wjbdradio.com" target="ksro.com" id="98" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="ksro.com" target="wmay.com" id="99" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kvia.com" target="kesq.com" id="100" weight="115.71428571428571">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kvia.com" target="kion546.com" id="101" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kvia.com" target="abc-7.com" id="102" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kvia.com" target="nbc-2.com" id="103" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kvia.com" target="The Daily Breeze" id="104" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kvia.com" target="kmir.com" id="105" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kesq.com" target="examiner.org" id="106" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kesq.com" target="cw39.com" id="107" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kesq.com" target="Syracuse.com" id="108" weight="56.5">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kesq.com" target="Orlando Sentinel" id="109" weight="88.33333333333333">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kesq.com" target="New York News - NY News | The Daily Freeman" id="110" weight="111.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kesq.com" target="Newsday" id="111" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kesq.com" target="WWTI" id="112" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kesq.com" target="KTSM" id="113" weight="55.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kesq.com" target="Boynton Forum" id="114" weight="111.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kesq.com" target="The Troy Record - Latest News, Sports, Opinion, Entertainment, Business" id="115" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kesq.com" target="baynews9.com" id="116" weight="91.4">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kesq.com" target="news4jax.com" id="117" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kesq.com" target="watermarkonline.com" id="118" weight="90.5">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kesq.com" target="local10.com" id="119" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kesq.com" target="ksat.com" id="120" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kesq.com" target="WSVN FOX" id="121" weight="62.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kesq.com" target="wfla.com" id="122" weight="55.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kesq.com" target="kron4.com" id="123" weight="65.5">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kesq.com" target="mynews13.com" id="124" weight="82.5">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kesq.com" target="abc-7.com" id="125" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kesq.com" target="suntimes.com" id="126" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kesq.com" target="Daily Democrat Online" id="127" weight="64.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kesq.com" target="The Reporter" id="128" weight="64.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kesq.com" target="Hoffman Estates Review" id="129" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kesq.com" target="wgntv.com" id="130" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kesq.com" target="Rolling Meadows Review" id="131" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kesq.com" target="ktla.com" id="132" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kesq.com" target="whbf.com" id="133" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kesq.com" target="wdtn.com" id="134" weight="102.75">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kesq.com" target="ktsa.com" id="135" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kesq.com" target="kxas nbc 5" id="136" weight="87.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kesq.com" target="keyt.com" id="137" weight="108.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kesq.com" target="kion546.com" id="138" weight="106.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kesq.com" target="northbaybusinessjournal.com" id="139" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kesq.com" target="The Daily Breeze" id="140" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kesq.com" target="kmir.com" id="141" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kesq.com" target="Berkeley Voice" id="142" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ft. Bragg Advocate-News" target="The Reporter" id="143" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ft. Bragg Advocate-News" target="New York News - NY News | The Daily Freeman" id="144" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ft. Bragg Advocate-News" target="morningjournal.com" id="145" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ft. Bragg Advocate-News" target="Orlando Sentinel" id="146" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ft. Bragg Advocate-News" target="Oneida Daily Dispatch - Latest News, Sports, Opinion, Entertainment, Business, Life" id="147" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="The Reporter" target="New York News - NY News | The Daily Freeman" id="148" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="The Reporter" target="morningjournal.com" id="149" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="The Reporter" target="Chico Enterprise Record" id="150" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="The Reporter" target="Brentwood News - United States (Brentwood)" id="151" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="The Reporter" target="Daily Democrat Online" id="152" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="The Reporter" target="Orlando Sentinel" id="153" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="The Reporter" target="Oneida Daily Dispatch - Latest News, Sports, Opinion, Entertainment, Business, Life" id="154" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="The Reporter" target="thesouthern.com" id="155" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="The Reporter" target="baynews9.com" id="156" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="The Reporter" target="The Daily Breeze" id="157" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="The Reporter" target="kron4.com" id="158" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="New York News - NY News | The Daily Freeman" target="morningjournal.com" id="159" weight="51.333333333333336">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="New York News - NY News | The Daily Freeman" target="Chico Enterprise Record" id="160" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="New York News - NY News | The Daily Freeman" target="Daily Democrat Online" id="161" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="New York News - NY News | The Daily Freeman" target="Orlando Sentinel" id="162" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="New York News - NY News | The Daily Freeman" target="South Florida Sun-Sentinel" id="163" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="New York News - NY News | The Daily Freeman" target="Boca Raton Forum" id="164" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="New York News - NY News | The Daily Freeman" target="keyt.com" id="165" weight="111.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="New York News - NY News | The Daily Freeman" target="wgntv.com" id="166" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="New York News - NY News | The Daily Freeman" target="baynews9.com" id="167" weight="73.66666666666667">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="New York News - NY News | The Daily Freeman" target="watermarkonline.com" id="168" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="New York News - NY News | The Daily Freeman" target="kion546.com" id="169" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="New York News - NY News | The Daily Freeman" target="Boynton Forum" id="170" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="New York News - NY News | The Daily Freeman" target="LA Times" id="171" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="New York News - NY News | The Daily Freeman" target="news-herald.com" id="172" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="New York News - NY News | The Daily Freeman" target="wdtn.com" id="173" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="New York News - NY News | The Daily Freeman" target="ktla.com" id="174" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="New York News - NY News | The Daily Freeman" target="examiner.org" id="175" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="New York News - NY News | The Daily Freeman" target="Community News - United States - New York" id="176" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="New York News - NY News | The Daily Freeman" target="limaohio.com" id="177" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="morningjournal.com" target="Chico Enterprise Record" id="178" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="morningjournal.com" target="Daily Democrat Online" id="179" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="morningjournal.com" target="Orlando Sentinel" id="180" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="morningjournal.com" target="Oneida Daily Dispatch - Latest News, Sports, Opinion, Entertainment, Business, Life" id="181" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="morningjournal.com" target="thesouthern.com" id="182" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="morningjournal.com" target="Community News - United States - New York" id="183" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="morningjournal.com" target="silive.com" id="184" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="morningjournal.com" target="watermarkonline.com" id="185" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="morningjournal.com" target="biscayne times online" id="186" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="morningjournal.com" target="Palos Verdes Peninsula News" id="187" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="morningjournal.com" target="limaohio.com" id="188" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="auroraadvocate.com" target="yourvalleyvoice.com" id="189" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="auroraadvocate.com" target="News from La Quinta | The Desert Sun | mydesert.com" id="190" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="auroraadvocate.com" target="newzjunky.com" id="191" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="yourvalleyvoice.com" target="News from La Quinta | The Desert Sun | mydesert.com" id="192" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="yourvalleyvoice.com" target="USA Today" id="193" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="yourvalleyvoice.com" target="newzjunky.com" id="194" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="yourvalleyvoice.com" target="marconews.com" id="195" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="KTSM" target="fox8.com" id="196" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="KTSM" target="WWTI" id="197" weight="148.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="KTSM" target="kron4.com" id="198" weight="120.66666666666667">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="KTSM" target="wfla.com" id="199" weight="147.33333333333334">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="KTSM" target="KGET" id="200" weight="111.33333333333333">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="KTSM" target="ktla.com" id="201" weight="108.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="KTSM" target="news10.com" id="202" weight="137.33333333333334">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="KTSM" target="wdtn.com" id="203" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="KTSM" target="fox5sandiego.com" id="204" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="KTSM" target="pix11.com" id="205" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="KTSM" target="wgntv.com" id="206" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="KTSM" target="cltv.com" id="207" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="KTSM" target="Ohio News Network" id="208" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="KTSM" target="Syracuse.com" id="209" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="KTSM" target="AuburnPub" id="210" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="KTSM" target="Brunswick Sun" id="211" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="KTSM" target="kxas nbc 5" id="212" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="KTSM" target="Hoffman Estates Review" id="213" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="KTSM" target="ktsa.com" id="214" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="KTSM" target="Orlando Sentinel" id="215" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="fox8.com" target="wfla.com" id="216" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="fox8.com" target="news10.com" id="217" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="fox8.com" target="kxan.com" id="218" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="fox8.com" target="central illinois proud" id="219" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="fox8.com" target="WWTI" id="220" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="fox8.com" target="Orlando Sentinel" id="221" weight="86.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="fox8.com" target="suntimes.com" id="222" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="fox8.com" target="The Daily Breeze" id="223" weight="92.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="fox8.com" target="ktla.com" id="224" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="fox8.com" target="El Cerrito Journal" id="225" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="fox8.com" target="sanfrancisco.cbslocal.com" id="226" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Chico Enterprise Record" target="Orlando Sentinel" id="227" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Chico Enterprise Record" target="Oneida Daily Dispatch - Latest News, Sports, Opinion, Entertainment, Business, Life" id="228" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Chico Enterprise Record" target="thesouthern.com" id="229" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Brentwood News - United States (Brentwood)" target="Orlando Sentinel" id="230" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Daily Democrat Online" target="baynews9.com" id="231" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Daily Democrat Online" target="kron4.com" id="232" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="news10.com" target="ktla.com" id="233" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="news10.com" target="kron4.com" id="234" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="news10.com" target="kxan.com" id="235" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="news10.com" target="Orlando Sentinel" id="236" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="news10.com" target="keyt.com" id="237" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="ktla.com" target="wfla.com" id="238" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="ktla.com" target="WWTI" id="239" weight="108.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="ktla.com" target="bigcountryhomepage.com" id="240" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="ktla.com" target="whbf.com" id="241" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="ktla.com" target="wdtn.com" id="242" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="ktla.com" target="Orlando Sentinel" id="243" weight="88.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="ktla.com" target="keyt.com" id="244" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="ktla.com" target="kron4.com" id="245" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="ktla.com" target="AuburnPub" id="246" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="ktla.com" target="Brunswick Sun" id="247" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="ktla.com" target="Boynton Forum" id="248" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="ktla.com" target="The Troy Record - Latest News, Sports, Opinion, Entertainment, Business" id="249" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="ktla.com" target="baynews9.com" id="250" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="ktla.com" target="El Cerrito Journal" id="251" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="ktla.com" target="The Daily Breeze" id="252" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="ktla.com" target="sanfrancisco.cbslocal.com" id="253" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="examiner.org" target="Orlando Sentinel" id="254" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="examiner.org" target="kxas nbc 5" id="255" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="examiner.org" target="keyt.com" id="256" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wmay.com" target="ktsa.com" id="257" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kion546.com" target="Syracuse.com" id="258" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kion546.com" target="Orlando Sentinel" id="259" weight="111.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kion546.com" target="watermarkonline.com" id="260" weight="92.33333333333333">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kion546.com" target="baynews9.com" id="261" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kion546.com" target="suntimes.com" id="262" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kion546.com" target="fortworthbusiness.com" id="263" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kion546.com" target="keyt.com" id="264" weight="122.2">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kion546.com" target="The Daily Breeze" id="265" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kion546.com" target="wdtn.com" id="266" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="cw39.com" target="baynews9.com" id="267" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="WWTI" target="kron4.com" id="268" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="WWTI" target="wfla.com" id="269" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="WWTI" target="wdtn.com" id="270" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="WWTI" target="fox5sandiego.com" id="271" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="WWTI" target="kxan.com" id="272" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="WWTI" target="wgntv.com" id="273" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="WWTI" target="cltv.com" id="274" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="WWTI" target="KGET" id="275" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="WWTI" target="AuburnPub" id="276" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="WWTI" target="Brunswick Sun" id="277" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="WWTI" target="kxas nbc 5" id="278" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kron4.com" target="wfla.com" id="279" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kron4.com" target="Syracuse.com" id="280" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kron4.com" target="baynews9.com" id="281" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kron4.com" target="Hoffman Estates Review" id="282" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kron4.com" target="ktsa.com" id="283" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kron4.com" target="sanfrancisco.cbslocal.com" id="284" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="newyork.cbslocal.com" target="dfw.cbslocal.com" id="285" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="newyork.cbslocal.com" target="gooddaysacramento.cbslocal.com" id="286" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="newyork.cbslocal.com" target="miami.cbslocal.com" id="287" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="newyork.cbslocal.com" target="chicago.cbslocal.com" id="288" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="newyork.cbslocal.com" target="sanfrancisco.cbslocal.com" id="289" weight="134.66666666666666">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="newyork.cbslocal.com" target="sacramento.cbslocal.com" id="290" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="newyork.cbslocal.com" target="losangeles.cbslocal.com" id="291" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="newyork.cbslocal.com" target="mynews13.com" id="292" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="dfw.cbslocal.com" target="gooddaysacramento.cbslocal.com" id="293" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="dfw.cbslocal.com" target="miami.cbslocal.com" id="294" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="dfw.cbslocal.com" target="chicago.cbslocal.com" id="295" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="dfw.cbslocal.com" target="sanfrancisco.cbslocal.com" id="296" weight="134.66666666666666">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="dfw.cbslocal.com" target="sacramento.cbslocal.com" id="297" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="dfw.cbslocal.com" target="losangeles.cbslocal.com" id="298" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="dfw.cbslocal.com" target="mynews13.com" id="299" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="dfw.cbslocal.com" target="kxas nbc 5" id="300" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="gooddaysacramento.cbslocal.com" target="miami.cbslocal.com" id="301" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="gooddaysacramento.cbslocal.com" target="chicago.cbslocal.com" id="302" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="gooddaysacramento.cbslocal.com" target="mynews13.com" id="303" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="gooddaysacramento.cbslocal.com" target="sanfrancisco.cbslocal.com" id="304" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="miami.cbslocal.com" target="chicago.cbslocal.com" id="305" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="miami.cbslocal.com" target="sanfrancisco.cbslocal.com" id="306" weight="134.66666666666666">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="miami.cbslocal.com" target="sacramento.cbslocal.com" id="307" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="miami.cbslocal.com" target="losangeles.cbslocal.com" id="308" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="miami.cbslocal.com" target="mynews13.com" id="309" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="chicago.cbslocal.com" target="sanfrancisco.cbslocal.com" id="310" weight="134.66666666666666">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="chicago.cbslocal.com" target="sacramento.cbslocal.com" id="311" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="chicago.cbslocal.com" target="losangeles.cbslocal.com" id="312" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="chicago.cbslocal.com" target="mynews13.com" id="313" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="newzjunky.com" target="News from La Quinta | The Desert Sun | mydesert.com" id="314" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="newzjunky.com" target="clickorlando.com" id="315" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="newzjunky.com" target="news4jax.com" id="316" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="newzjunky.com" target="click2houston.com" id="317" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="News from La Quinta | The Desert Sun | mydesert.com" target="USA Today" id="318" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Orlando Sentinel" target="Oneida Daily Dispatch - Latest News, Sports, Opinion, Entertainment, Business, Life" id="319" weight="140.66666666666666">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Orlando Sentinel" target="Community News - United States - New York" id="320" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Orlando Sentinel" target="baynews9.com" id="321" weight="73.66666666666667">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Orlando Sentinel" target="watermarkonline.com" id="322" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Orlando Sentinel" target="Boynton Forum" id="323" weight="104.5">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Orlando Sentinel" target="thesouthern.com" id="324" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Orlando Sentinel" target="wdtn.com" id="325" weight="96.25">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Orlando Sentinel" target="variety.com" id="326" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Orlando Sentinel" target="El Sentinel " id="327" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Orlando Sentinel" target="keyt.com" id="328" weight="123.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Orlando Sentinel" target="wmnf.org" id="329" weight="73.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Orlando Sentinel" target="Delray Forum" id="330" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Orlando Sentinel" target="El Cerrito Journal" id="331" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Orlando Sentinel" target="The Daily Breeze" id="332" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Orlando Sentinel" target="Palos Verdes Peninsula News" id="333" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Orlando Sentinel" target="suntimes.com" id="334" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wfla.com" target="KGET" id="335" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wfla.com" target="wdtn.com" id="336" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wfla.com" target="fox5sandiego.com" id="337" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wfla.com" target="pix11.com" id="338" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wfla.com" target="wgntv.com" id="339" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wfla.com" target="bigcountryhomepage.com" id="340" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wfla.com" target="Syracuse.com" id="341" weight="110.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wfla.com" target="AuburnPub" id="342" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wfla.com" target="Brunswick Sun" id="343" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wfla.com" target="Ohio News Network" id="344" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wfla.com" target="kxas nbc 5" id="345" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wfla.com" target="Hoffman Estates Review" id="346" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wfla.com" target="ktsa.com" id="347" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wfla.com" target="Beacon News" id="348" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Oneida Daily Dispatch - Latest News, Sports, Opinion, Entertainment, Business, Life" target="News Sun - United States - Ohio" id="349" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Oneida Daily Dispatch - Latest News, Sports, Opinion, Entertainment, Business, Life" target="silive.com" id="350" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Oneida Daily Dispatch - Latest News, Sports, Opinion, Entertainment, Business, Life" target="Deerfield Forum" id="351" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Oneida Daily Dispatch - Latest News, Sports, Opinion, Entertainment, Business, Life" target="suntimes.com" id="352" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Oneida Daily Dispatch - Latest News, Sports, Opinion, Entertainment, Business, Life" target="wdtn.com" id="353" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Oneida Daily Dispatch - Latest News, Sports, Opinion, Entertainment, Business, Life" target="limaohio.com" id="354" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Oneida Daily Dispatch - Latest News, Sports, Opinion, Entertainment, Business, Life" target="thesouthern.com" id="355" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Oneida Daily Dispatch - Latest News, Sports, Opinion, Entertainment, Business, Life" target="Palos Verdes Peninsula News" id="356" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wdtn.com" target="fox5sandiego.com" id="357" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wdtn.com" target="whbf.com" id="358" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wdtn.com" target="bigcountryhomepage.com" id="359" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wdtn.com" target="wgntv.com" id="360" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wdtn.com" target="News Sun - United States - Ohio" id="361" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wdtn.com" target="silive.com" id="362" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wdtn.com" target="Boynton Forum" id="363" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wdtn.com" target="The Troy Record - Latest News, Sports, Opinion, Entertainment, Business" id="364" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wdtn.com" target="Deerfield Forum" id="365" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wdtn.com" target="baynews9.com" id="366" weight="119.5">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wdtn.com" target="clickorlando.com" id="367" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wdtn.com" target="ksat.com" id="368" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wdtn.com" target="suntimes.com" id="369" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wdtn.com" target="San Diego Voice and Viewpoint" id="370" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wdtn.com" target="keyt.com" id="371" weight="95.5">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wdtn.com" target="limaohio.com" id="372" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="whbf.com" target="Boynton Forum" id="373" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="whbf.com" target="The Troy Record - Latest News, Sports, Opinion, Entertainment, Business" id="374" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="clickorlando.com" target="ksat.com" id="375" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="clickorlando.com" target="click2houston.com" id="376" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="clickorlando.com" target="utsandiego.com" id="377" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="clickorlando.com" target="San Diego Union Tribune" id="378" weight="81.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="clickorlando.com" target="Beacon News" id="379" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="clickorlando.com" target="Orlando Weekly" id="380" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="clickorlando.com" target="cltampa.com" id="381" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="ksat.com" target="local10.com" id="382" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="ksat.com" target="news4jax.com" id="383" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="ksat.com" target="utsandiego.com" id="384" weight="83.5">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="ksat.com" target="suntimes.com" id="385" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="ksat.com" target="winknews.com" id="386" weight="97.25">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="ksat.com" target="San Diego Union Tribune" id="387" weight="64.33333333333333">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="ksat.com" target="Beacon News" id="388" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="local10.com" target="click2houston.com" id="389" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="local10.com" target="suntimes.com" id="390" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="local10.com" target="winknews.com" id="391" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="local10.com" target="utsandiego.com" id="392" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="click2houston.com" target="news4jax.com" id="393" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="click2houston.com" target="San Diego Union Tribune" id="394" weight="97.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="click2houston.com" target="utsandiego.com" id="395" weight="83.66666666666667">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="click2houston.com" target="watermarkonline.com" id="396" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="news4jax.com" target="baynews9.com" id="397" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="news4jax.com" target="San Diego Union Tribune" id="398" weight="65.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="news4jax.com" target="utsandiego.com" id="399" weight="86.66666666666667">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="mynews13.com" target="kxas nbc 5" id="400" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="mynews13.com" target="The Saratogian - Latest News, Sports, Opinion, Entertainment, Business, Life" id="401" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="mynews13.com" target="keyt.com" id="402" weight="87.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="mynews13.com" target="wgntv.com" id="403" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kxas nbc 5" target="Syracuse.com" id="404" weight="94.33333333333333">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kxas nbc 5" target="The Saratogian - Latest News, Sports, Opinion, Entertainment, Business, Life" id="405" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kxas nbc 5" target="Newsday" id="406" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kxas nbc 5" target="baynews9.com" id="407" weight="118.5">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kxas nbc 5" target="nbcmiami.com" id="408" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kxas nbc 5" target="Coral Springs &#10;Forum" id="409" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kxas nbc 5" target="watermarkonline.com" id="410" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kxas nbc 5" target="Fort Lauderdale News &amp; Events - Sun Sentinel" id="411" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kxas nbc 5" target="caribbeannationalweekly.com" id="412" weight="74.5">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kxas nbc 5" target="Boynton Forum" id="413" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kxas nbc 5" target="thesouthern.com" id="414" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kxas nbc 5" target="nbcbayarea.com" id="415" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kxas nbc 5" target="ktsa.com" id="416" weight="87.5">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kxas nbc 5" target="tpr.org" id="417" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kxas nbc 5" target="LA Times" id="418" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wgntv.com" target="keyt.com" id="419" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="ny1.com" target="baynews9.com" id="420" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="baynews9.com" target="Syracuse.com" id="421" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="baynews9.com" target="New York Amsterdam News" id="422" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="baynews9.com" target="The Daily Breeze" id="423" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="baynews9.com" target="watermarkonline.com" id="424" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="baynews9.com" target="keyt.com" id="425" weight="81.33333333333333">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="baynews9.com" target="central illinois proud" id="426" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Community News - United States - New York" target="Brunswick Sun" id="427" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Community News - United States - New York" target="limaohio.com" id="428" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Boca Raton Forum" target="The Saratogian - Latest News, Sports, Opinion, Entertainment, Business, Life" id="429" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Boca Raton Forum" target="keyt.com" id="430" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="The Troy Record - Latest News, Sports, Opinion, Entertainment, Business" target="Boynton Forum" id="431" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Boynton Forum" target="cltampa.com" id="432" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="ktsa.com" target="Syracuse.com" id="433" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="ktsa.com" target="Hoffman Estates Review" id="434" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="ktsa.com" target="limaohio.com" id="435" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="thesouthern.com" target="AuburnPub" id="436" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="thesouthern.com" target="Newsday" id="437" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="thesouthern.com" target="limaohio.com" id="438" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="AuburnPub" target="Southern Business Journal" id="439" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="AuburnPub" target="Brunswick Sun" id="440" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="central illinois proud" target="suntimes.com" id="441" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="central illinois proud" target="The Daily Breeze" id="442" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="silive.com" target="News Sun - United States - Ohio" id="443" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="silive.com" target="Parma Sun Post" id="444" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="silive.com" target="cleveland.com" id="445" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="silive.com" target="Plain Dealer" id="446" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="silive.com" target="West Shore Sun" id="447" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="silive.com" target="Brunswick Sun" id="448" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="silive.com" target="Deerfield Forum" id="449" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="silive.com" target="suntimes.com" id="450" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="silive.com" target="limaohio.com" id="451" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="silive.com" target="biscayne times online" id="452" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="News Sun - United States - Ohio" target="Deerfield Forum" id="453" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="News Sun - United States - Ohio" target="suntimes.com" id="454" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="News Sun - United States - Ohio" target="limaohio.com" id="455" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="cleveland.com" target="Syracuse.com" id="456" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="cleveland.com" target="WSVN FOX" id="457" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Syracuse.com" target="Hoffman Estates Review" id="458" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Syracuse.com" target="San Diego Union Tribune" id="459" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Syracuse.com" target="WSVN FOX" id="460" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Deerfield Forum" target="suntimes.com" id="461" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Deerfield Forum" target="limaohio.com" id="462" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="suntimes.com" target="limaohio.com" id="463" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="suntimes.com" target="The Daily Breeze" id="464" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="suntimes.com" target="Windy City Word" id="465" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="limaohio.com" target="Jewish Journal - United States - Florida" id="466" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="limaohio.com" target="WSVN FOX" id="467" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="limaohio.com" target="LA Times" id="468" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="nbcnewyork.com" target="nbcmiami.com" id="469" weight="90.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="nbcnewyork.com" target="nbcchicago.com" id="470" weight="64.6">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="nbcnewyork.com" target="nbcbayarea.com" id="471" weight="68.875">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="nbcnewyork.com" target="nbcsandiego.com" id="472" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="nbcmiami.com" target="nbcbayarea.com" id="473" weight="61.36363636363637">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="nbcmiami.com" target="nbcchicago.com" id="474" weight="59.25">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="nbcmiami.com" target="nbcsandiego.com" id="475" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="nbcchicago.com" target="nbcbayarea.com" id="476" weight="53.125">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="nbcchicago.com" target="nbcsandiego.com" id="477" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="nbcbayarea.com" target="nbcsandiego.com" id="478" weight="64.16666666666667">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="nbcbayarea.com" target="nbclosangeles.com" id="479" weight="57.5">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="keyt.com" target="defendernetwork.com" id="480" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="New York Amsterdam News" target="defendernetwork.com" id="481" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="nydailyrecord.com" target="watermarkonline.com" id="482" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="watermarkonline.com" target="caribbeannationalweekly.com" id="483" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="The New York Carib News" target="caribbeannationalweekly.com" id="484" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="LA Times" target="Black Star News" id="485" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="LA Times" target="Delray Forum" id="486" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="LA Times" target="Westside Gazette" id="487" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="LA Times" target="tpr.org" id="488" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="LA Times" target="news-herald.com" id="489" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Black Star News" target="Westside Gazette" id="490" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Black Star News" target="davisvanguard.org" id="491" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Westside Gazette" target="wmnf.org" id="492" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="WSVN FOX" target="Contra Costa Times " id="493" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="nbcsandiego.com" target="nbclosangeles.com" id="494" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="The Daily Breeze" target="nbc-2.com" id="495" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="The Daily Breeze" target="sanfernandosun.com" id="496" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="The Daily Breeze" target="El Cerrito Journal" id="497" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="cltampa.com" target="Orlando Weekly" id="498" weight="99.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="cltampa.com" target="wmnf.org" id="499" weight="53.5">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="cltampa.com" target="Fort Lauderdale News &amp; Events - Sun Sentinel" id="500" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Orlando Weekly" target="Fort Lauderdale News &amp; Events - Sun Sentinel" id="501" weight="73.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Orlando Weekly" target="El Sentinel " id="502" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Orlando Weekly" target="wmnf.org" id="503" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wmnf.org" target="wgcu.org" id="504" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Coral Springs &#10;Forum" target="Windy City Word" id="505" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="nbc-2.com" target="kmir.com" id="506" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="San Diego Voice and Viewpoint" target="Inland Valley News" id="507" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

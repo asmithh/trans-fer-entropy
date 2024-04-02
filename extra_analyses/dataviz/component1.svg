@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+    "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg contentScriptType="text/ecmascript" width="797.68677"
+     xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify"
+     contentStyleType="text/css"
+     viewBox="-415.000000 -414.414398 797.686768 837.734375" height="837.7344"
+     preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+     version="1.1">
+    <g id="edges">
+        <path fill="none" stroke-width="0.78083336"
+              d="M -145.463211,104.991859 C -156.443604,-64.732544 81.672432,-335.789734 251.396835,-346.770111"
+              class="id_wesh.com id_wlwt.com" stroke-opacity="1.0"
+              stroke="#000000"/>
+        <path fill="none" stroke-width="0.78083336"
+              d="M -145.463211,104.991859 C -152.988815,201.078171 -308.406677,333.919189 -404.492981,326.393585"
+              class="id_wesh.com id_NBC_5" stroke-opacity="1.0" stroke="#000000"/>
+        <path fill="none" stroke-width="2.0"
+              d="M -145.463211,104.991859 C -56.062374,45.071053 167.920074,89.291100 227.840866,178.691940"
+              class="id_wesh.com id_kcra.com" stroke-opacity="1.0"
+              stroke="#000000"/>
+        <path fill="none" stroke-width="1.0104166"
+              d="M -145.463211,104.991859 C -224.087906,79.727051 -304.127747,-76.107201 -278.862915,-154.731888"
+              class="id_wesh.com id_ksbw.com" stroke-opacity="1.0"
+              stroke="#000000"/>
+        <path fill="none" stroke-width="1.0104166"
+              d="M -278.862915,-154.731888 C -207.763824,-33.380775 -283.141876,255.294495 -404.492981,326.393585"
+              class="id_ksbw.com id_NBC_5" stroke-opacity="1.0" stroke="#000000"/>
+        <path fill="none" stroke-width="1.0104166"
+              d="M -278.862915,-154.731888 C -211.218613,-299.191467 106.937241,-414.414398 251.396835,-346.770111"
+              class="id_ksbw.com id_wlwt.com" stroke-opacity="1.0"
+              stroke="#000000"/>
+        <path fill="none" stroke-width="0.515625"
+              d="M -278.862915,-154.731888 C -110.837387,-189.387878 193.184875,10.666412 227.840866,178.691940"
+              class="id_ksbw.com id_kcra.com" stroke-opacity="1.0"
+              stroke="#000000"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 349.581421,-108.575401 C 282.305573,-136.577423 223.394806,-279.494263 251.396835,-346.770111"
+              class="id_wpbf.com id_wlwt.com" stroke-opacity="1.0"
+              stroke="#000000"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 349.581421,-108.575401 C 285.760345,129.233276 -166.684296,390.214661 -404.492981,326.393585"
+              class="id_wpbf.com id_NBC_5" stroke-opacity="1.0" stroke="#000000"/>
+        <path fill="none" stroke-width="2.0"
+              d="M 349.581421,-108.575401 C 382.686768,-26.773821 309.642456,145.586578 227.840866,178.691940"
+              class="id_wpbf.com id_kcra.com" stroke-opacity="1.0"
+              stroke="#000000"/>
+        <path fill="none" stroke-width="0.78083336"
+              d="M 227.840866,178.691940 C 127.459656,68.888336 141.593231,-246.388901 251.396835,-346.770111"
+              class="id_kcra.com id_wlwt.com" stroke-opacity="1.0"
+              stroke="#000000"/>
+        <path fill="none" stroke-width="0.78083336"
+              d="M 227.840866,178.691940 C 130.914413,334.699036 -248.485855,423.320007 -404.492981,326.393585"
+              class="id_kcra.com id_NBC_5" stroke-opacity="1.0" stroke="#000000"/>
+        <path fill="none" stroke-width="0.1"
+              d="M 251.396835,-346.770111 C 254.851608,-80.959412 -138.682266,322.938812 -404.492981,326.393585"
+              class="id_wlwt.com id_NBC_5" stroke-opacity="1.0" stroke="#000000"/>
+    </g>
+    <g id="nodes">
+        <circle fill-opacity="1.0" fill="#d27cce" r="10.0" cx="-145.46321"
+                class="id_wesh.com" cy="104.99186" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#68ad36" r="10.0" cx="-278.8629"
+                class="id_ksbw.com" cy="-154.73189" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#d27cce" r="10.0" cx="349.58142"
+                class="id_wpbf.com" cy="-108.5754" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#68ad36" r="10.0" cx="227.84087"
+                class="id_kcra.com" cy="178.69194" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#00b7da" r="10.0" cx="251.39684"
+                class="id_wlwt.com" cy="-346.7701" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#ff743e" r="10.0" cx="-404.49298"
+                class="id_NBC_5" cy="326.3936" stroke="#000000"
+                stroke-opacity="1.0" stroke-width="1.0"/>
+    </g>
+    <g id="node-labels">
+        <text font-size="24" x="-145.46321" y="109.35709" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_wesh.com">
+            wesh.com
+        </text>
+        <text font-size="24" x="-278.8629" y="-150.36665" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_ksbw.com">
+            ksbw.com
+        </text>
+        <text font-size="24" x="349.58142" y="-103.014854" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_wpbf.com">
+            wpbf.com
+        </text>
+        <text font-size="24" x="227.84087" y="183.05717" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_kcra.com">
+            kcra.com
+        </text>
+        <text font-size="24" x="251.39684" y="-342.40488" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_wlwt.com">
+            wlwt.com
+        </text>
+        <text font-size="24" x="-404.49298" y="330.835" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_NBC_5">
+            NBC 5
+        </text>
+    </g>
+</svg>

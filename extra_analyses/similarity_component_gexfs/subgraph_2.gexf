@@ -1,0 +1,393 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2024-04-01">
+    <creator>NetworkX 2.6.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="1" title="dist_list" type="long" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="dset" type="string" />
+    </attributes>
+    <nodes>
+      <node id="12newsnow.com" label="12newsnow.com">
+        <attvalues>
+          <attvalue for="0" value="texas" />
+        </attvalues>
+      </node>
+      <node id="wtsp.com" label="wtsp.com">
+        <attvalues>
+          <attvalue for="0" value="florida" />
+        </attvalues>
+      </node>
+      <node id="kiiitv.com" label="kiiitv.com">
+        <attvalues>
+          <attvalue for="0" value="texas" />
+        </attvalues>
+      </node>
+      <node id="cbs8.com" label="cbs8.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="The CW Sandiego" label="The CW Sandiego">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="news10.net" label="news10.net">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="cbs19.tv" label="cbs19.tv">
+        <attvalues>
+          <attvalue for="0" value="texas" />
+        </attvalues>
+      </node>
+      <node id="WFAA ABC" label="WFAA ABC">
+        <attvalues>
+          <attvalue for="0" value="texas" />
+        </attvalues>
+      </node>
+      <node id="kagstv.com" label="kagstv.com">
+        <attvalues>
+          <attvalue for="0" value="texas" />
+        </attvalues>
+      </node>
+      <node id="newswest9.com" label="newswest9.com">
+        <attvalues>
+          <attvalue for="0" value="texas" />
+        </attvalues>
+      </node>
+      <node id="kvue.com" label="kvue.com">
+        <attvalues>
+          <attvalue for="0" value="texas" />
+        </attvalues>
+      </node>
+      <node id="firstcoastnews.com" label="firstcoastnews.com">
+        <attvalues>
+          <attvalue for="0" value="florida" />
+        </attvalues>
+      </node>
+      <node id="khou.com" label="khou.com">
+        <attvalues>
+          <attvalue for="0" value="texas" />
+        </attvalues>
+      </node>
+      <node id="wgrz.com" label="wgrz.com">
+        <attvalues>
+          <attvalue for="0" value="newyork" />
+        </attvalues>
+      </node>
+      <node id="WKYC NBC" label="WKYC NBC">
+        <attvalues>
+          <attvalue for="0" value="ohio" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="12newsnow.com" target="news10.net" id="0" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="12newsnow.com" target="wgrz.com" id="1" weight="149.33333333333334">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="12newsnow.com" target="WKYC NBC" id="2" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="12newsnow.com" target="firstcoastnews.com" id="3" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wtsp.com" target="cbs19.tv" id="4" weight="112.66666666666667">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wtsp.com" target="news10.net" id="5" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wtsp.com" target="WKYC NBC" id="6" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wtsp.com" target="wgrz.com" id="7" weight="117.33333333333333">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wtsp.com" target="kvue.com" id="8" weight="117.33333333333333">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wtsp.com" target="cbs8.com" id="9" weight="117.33333333333333">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wtsp.com" target="The CW Sandiego" id="10" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wtsp.com" target="newswest9.com" id="11" weight="57.333333333333336">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wtsp.com" target="khou.com" id="12" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wtsp.com" target="kagstv.com" id="13" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kiiitv.com" target="news10.net" id="14" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kiiitv.com" target="wgrz.com" id="15" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kiiitv.com" target="WKYC NBC" id="16" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kiiitv.com" target="firstcoastnews.com" id="17" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="cbs8.com" target="WKYC NBC" id="18" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="cbs8.com" target="kvue.com" id="19" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="cbs8.com" target="khou.com" id="20" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="cbs8.com" target="wgrz.com" id="21" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="cbs8.com" target="firstcoastnews.com" id="22" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="cbs8.com" target="cbs19.tv" id="23" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="The CW Sandiego" target="firstcoastnews.com" id="24" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="The CW Sandiego" target="khou.com" id="25" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="The CW Sandiego" target="wgrz.com" id="26" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="The CW Sandiego" target="WKYC NBC" id="27" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="The CW Sandiego" target="newswest9.com" id="28" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="The CW Sandiego" target="WFAA ABC" id="29" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="The CW Sandiego" target="kvue.com" id="30" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="news10.net" target="kagstv.com" id="31" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="news10.net" target="cbs19.tv" id="32" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="news10.net" target="WKYC NBC" id="33" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="news10.net" target="wgrz.com" id="34" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="news10.net" target="firstcoastnews.com" id="35" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="news10.net" target="khou.com" id="36" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="news10.net" target="kvue.com" id="37" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="news10.net" target="WFAA ABC" id="38" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="news10.net" target="newswest9.com" id="39" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="cbs19.tv" target="WKYC NBC" id="40" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="cbs19.tv" target="firstcoastnews.com" id="41" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="cbs19.tv" target="wgrz.com" id="42" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="WFAA ABC" target="firstcoastnews.com" id="43" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="WFAA ABC" target="wgrz.com" id="44" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="WFAA ABC" target="WKYC NBC" id="45" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kagstv.com" target="wgrz.com" id="46" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kagstv.com" target="WKYC NBC" id="47" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="newswest9.com" target="wgrz.com" id="48" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="newswest9.com" target="WKYC NBC" id="49" weight="57.333333333333336">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="newswest9.com" target="kvue.com" id="50" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kvue.com" target="WKYC NBC" id="51" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kvue.com" target="wgrz.com" id="52" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kvue.com" target="firstcoastnews.com" id="53" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="firstcoastnews.com" target="khou.com" id="54" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="firstcoastnews.com" target="wgrz.com" id="55" weight="149.33333333333334">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="firstcoastnews.com" target="WKYC NBC" id="56" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="khou.com" target="wgrz.com" id="57" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="khou.com" target="WKYC NBC" id="58" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wgrz.com" target="WKYC NBC" id="59" weight="149.33333333333334">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
