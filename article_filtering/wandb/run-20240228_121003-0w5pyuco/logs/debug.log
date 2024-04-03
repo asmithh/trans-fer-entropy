@@ -1,0 +1,27 @@
+2024-02-28 12:10:03,985 INFO    MainThread:1544870 [wandb_setup.py:_flush():76] Current SDK version is 0.16.3
+2024-02-28 12:10:03,985 INFO    MainThread:1544870 [wandb_setup.py:_flush():76] Configure stats pid to 1544870
+2024-02-28 12:10:03,985 INFO    MainThread:1544870 [wandb_setup.py:_flush():76] Loading settings from /home/sagar/.config/wandb/settings
+2024-02-28 12:10:03,985 INFO    MainThread:1544870 [wandb_setup.py:_flush():76] Loading settings from /home/sagar/trans-fer-entropy/article_filtering/wandb/settings
+2024-02-28 12:10:03,985 INFO    MainThread:1544870 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'notebook_name': '/home/sagar/trans-fer-entropy/article_filtering/01-sk-filter_testing.ipynb'}
+2024-02-28 12:10:03,985 INFO    MainThread:1544870 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-02-28 12:10:03,985 INFO    MainThread:1544870 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-02-28 12:10:03,985 INFO    MainThread:1544870 [wandb_init.py:_log_setup():526] Logging user logs to /home/sagar/trans-fer-entropy/article_filtering/wandb/run-20240228_121003-0w5pyuco/logs/debug.log
+2024-02-28 12:10:03,986 INFO    MainThread:1544870 [wandb_init.py:_log_setup():527] Logging internal logs to /home/sagar/trans-fer-entropy/article_filtering/wandb/run-20240228_121003-0w5pyuco/logs/debug-internal.log
+2024-02-28 12:10:03,986 INFO    MainThread:1544870 [wandb_init.py:init():566] calling init triggers
+2024-02-28 12:10:03,986 INFO    MainThread:1544870 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {}
+2024-02-28 12:10:03,986 INFO    MainThread:1544870 [wandb_init.py:init():591] re-initializing run, found existing run on stack: s1lyh28q
+2024-02-28 12:10:03,988 INFO    MainThread:1544870 [wandb_run.py:_finish():1970] finishing run sagarkumar/few_shot_1/s1lyh28q
+2024-02-28 12:10:04,022 INFO    MainThread:1544870 [jupyter.py:save_history():445] not saving jupyter history
+2024-02-28 12:10:04,022 INFO    MainThread:1544870 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-02-28 12:10:04,022 INFO    MainThread:1544870 [wandb_init.py:_jupyter_teardown():454] cleaning up jupyter logic
+2024-02-28 12:10:04,022 INFO    MainThread:1544870 [wandb_run.py:_atexit_cleanup():2210] got exitcode: 0
+2024-02-28 12:10:04,022 INFO    MainThread:1544870 [wandb_run.py:_restore():2193] restore
+2024-02-28 12:10:04,022 INFO    MainThread:1544870 [wandb_run.py:_restore():2199] restore done
+2024-02-28 12:10:05,645 INFO    MainThread:1544870 [wandb_init.py:init():616] starting backend
+2024-02-28 12:10:05,645 INFO    MainThread:1544870 [wandb_init.py:init():620] setting up manager
+2024-02-28 12:10:05,648 INFO    MainThread:1544870 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-02-28 12:10:05,648 INFO    MainThread:1544870 [wandb_init.py:init():628] backend started and connected
+2024-02-28 12:10:05,662 INFO    MainThread:1544870 [wandb_run.py:_label_probe_notebook():1295] probe notebook
+2024-02-28 12:10:05,665 INFO    MainThread:1544870 [wandb_init.py:init():720] updated telemetry
+2024-02-28 12:10:05,671 INFO    MainThread:1544870 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout

@@ -1,3 +1,4 @@
 pickles/*
 *.pkl
 *.csv
+/article_filtering/models/
