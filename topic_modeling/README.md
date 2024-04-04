@@ -10,6 +10,8 @@
 
 - `interpret_topic_modeling_output_prior_data_apr_jun_2023.ipynb`: This notebook looks at the topics (in terms of top words and top documents) for each topic, to enable interpretation for each topic uncovered by various topic models trained and saved in `train_mallet_on_combined_article_text_data_apr_jun_2023_data.py`
 
+- `interpret_topic_modeling_apr_jun_2023_post_irrelevant_article_filtering.ipynb`: This notebook looks at the topics (in terms of top words and top documents) for each topic, to enable interpretation for each topic uncovered by various topic models trained and saved in `train_mallet_on_combined_article_text_data_apr_jun_2023_data_after_removing_trans_irrelevant_articles.py` -- it also proposes topic labels for the research team to view and discuss. 
+
 - `interpret_topic_modeling_output_prior_data_apr_jun_2023_after_national_outlet_filtering.ipynb`: This notebook looks at the topics (in terms of top words and top documents) for each topic, to enable interpretation for each topic uncovered by various topic models trained and saved in `train_mallet_on_combined_article_text_data_apr_jun_2023_data_after_removing_national_outlets_in_state_media.py`
   
 - `requirements.txt`: Python libraries needed to run the codes above. Python version used: 3.8.10
