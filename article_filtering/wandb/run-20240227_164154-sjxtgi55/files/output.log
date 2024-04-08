@@ -1,0 +1,13 @@
+
+Fine Tuning:   0%|                                        | 0/7 [00:00<?, ?it/s]
+Exception ignored in: <function _MultiProcessingDataLoaderIter.__del__ at 0x7f965501b100>
+Traceback (most recent call last):
+  File "/home/sagar/anaconda3/lib/python3.11/site-packages/torch/utils/data/dataloader.py", line 1479, in __del__
+  File "/home/sagar/anaconda3/lib/python3.11/site-packages/torch/utils/data/dataloader.py", line 1443, in _shutdown_workers
+  File "/home/sagar/anaconda3/lib/python3.11/multiprocessing/process.py", line 149, in join
+  File "/home/sagar/anaconda3/lib/python3.11/multiprocessing/popen_fork.py", line 40, in wait
+  File "/home/sagar/anaconda3/lib/python3.11/multiprocessing/connection.py", line 930, in wait
+  File "/home/sagar/anaconda3/lib/python3.11/selectors.py", line 415, in select
+KeyboardInterrupt:
+/home/sagar/anaconda3/lib/python3.11/site-packages/transformers/optimization.py:407: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
