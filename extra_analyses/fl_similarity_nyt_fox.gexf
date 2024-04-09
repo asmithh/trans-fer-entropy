@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2024-04-08">
+    <creator>NetworkX 2.6.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="1" title="dist_list" type="long" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="dset" type="string" />
+    </attributes>
+    <nodes>
+      <node id="wfla.com" label="wfla.com">
+        <attvalues>
+          <attvalue for="0" value="florida" />
+        </attvalues>
+      </node>
+      <node id="baynews9.com" label="baynews9.com">
+        <attvalues>
+          <attvalue for="0" value="florida" />
+        </attvalues>
+      </node>
+      <node id="wesh.com" label="wesh.com">
+        <attvalues>
+          <attvalue for="0" value="florida" />
+        </attvalues>
+      </node>
+      <node id="watermarkonline.com" label="watermarkonline.com">
+        <attvalues>
+          <attvalue for="0" value="florida" />
+        </attvalues>
+      </node>
+      <node id="news4jax.com" label="news4jax.com">
+        <attvalues>
+          <attvalue for="0" value="florida" />
+        </attvalues>
+      </node>
+      <node id="local10.com" label="local10.com">
+        <attvalues>
+          <attvalue for="0" value="florida" />
+        </attvalues>
+      </node>
+      <node id="cltampa.com" label="cltampa.com">
+        <attvalues>
+          <attvalue for="0" value="florida" />
+        </attvalues>
+      </node>
+      <node id="nbcmiami.com" label="nbcmiami.com">
+        <attvalues>
+          <attvalue for="0" value="florida" />
+        </attvalues>
+      </node>
+      <node id="mynews13.com" label="mynews13.com">
+        <attvalues>
+          <attvalue for="0" value="florida" />
+        </attvalues>
+      </node>
+      <node id="winknews.com" label="winknews.com">
+        <attvalues>
+          <attvalue for="0" value="florida" />
+        </attvalues>
+      </node>
+      <node id="abc-7.com" label="abc-7.com">
+        <attvalues>
+          <attvalue for="0" value="florida" />
+        </attvalues>
+      </node>
+      <node id="wmnf.org" label="wmnf.org">
+        <attvalues>
+          <attvalue for="0" value="florida" />
+        </attvalues>
+      </node>
+      <node id="caribbeannationalweekly.com" label="caribbeannationalweekly.com">
+        <attvalues>
+          <attvalue for="0" value="florida" />
+        </attvalues>
+      </node>
+      <node id="nbc-2.com" label="nbc-2.com">
+        <attvalues>
+          <attvalue for="0" value="florida" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="baynews9.com" target="news4jax.com" id="0" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="baynews9.com" target="watermarkonline.com" id="1" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

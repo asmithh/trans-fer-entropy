@@ -1,0 +1,383 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2024-04-08">
+    <creator>NetworkX 2.6.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="1" title="dist_list" type="long" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="dset" type="string" />
+    </attributes>
+    <nodes>
+      <node id="The Daily Breeze" label="The Daily Breeze">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="kcra.com" label="kcra.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="kesq.com" label="kesq.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="news10.net" label="news10.net">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="kion546.com" label="kion546.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="http://www.hoffmania.com/" label="http://www.hoffmania.com/">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="yourcentralvalley.com" label="yourcentralvalley.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="cbs8.com" label="cbs8.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="Ft. Bragg Advocate-News" label="Ft. Bragg Advocate-News">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="The CW Sandiego" label="The CW Sandiego">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="keyt.com" label="keyt.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="kron4.com" label="kron4.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="KGET" label="KGET">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="ktla.com" label="ktla.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="El Cerrito Journal" label="El Cerrito Journal">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="sanfrancisco.cbslocal.com" label="sanfrancisco.cbslocal.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="Chico Enterprise Record" label="Chico Enterprise Record">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="LA Times" label="LA Times">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="San Diego Voice and Viewpoint" label="San Diego Voice and Viewpoint">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="fox5sandiego.com" label="fox5sandiego.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="News from La Quinta | The Desert Sun | mydesert.com" label="News from La Quinta | The Desert Sun | mydesert.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="ksbw.com" label="ksbw.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="Useful Links - New York Times Newsroom Guide to Useful Web Sites" label="Useful Links - New York Times Newsroom Guide to Useful Web Sites">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id=" The Caucus - New York Times Political Blog" label=" The Caucus - New York Times Political Blog">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="San Diego Union Tribune" label="San Diego Union Tribune">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="nbcbayarea.com" label="nbcbayarea.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="utsandiego.com" label="utsandiego.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="gooddaysacramento.cbslocal.com" label="gooddaysacramento.cbslocal.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="sacramento.cbslocal.com" label="sacramento.cbslocal.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="losangeles.cbslocal.com" label="losangeles.cbslocal.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="Brentwood News - United States (Brentwood)" label="Brentwood News - United States (Brentwood)">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="Palos Verdes Peninsula News" label="Palos Verdes Peninsula News">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="kmir.com" label="kmir.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="nbcsandiego.com" label="nbcsandiego.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="abc30.com" label="abc30.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="920kvec.com" label="920kvec.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="ksro.com" label="ksro.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="jweekly.com" label="jweekly.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="knzr.com" label="knzr.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="davisvanguard.org" label="davisvanguard.org">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="www.record-bee.com" label="www.record-bee.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="Ukiah Daily Journal" label="Ukiah Daily Journal">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="nbclosangeles.com" label="nbclosangeles.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="| www.theacornonline.com | The Acorn Online - In Print and on the Web" label="| www.theacornonline.com | The Acorn Online - In Print and on the Web">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="mpacorn.com" label="mpacorn.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="northbaybusinessjournal.com" label="northbaybusinessjournal.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="Inland Valley News" label="Inland Valley News">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="The Daily Breeze" target="kion546.com" id="0" weight="59.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="The Daily Breeze" target="El Cerrito Journal" id="1" weight="124.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kcra.com" target="ksbw.com" id="2" weight="58.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kesq.com" target="http://www.hoffmania.com/" id="3" weight="101.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kesq.com" target="keyt.com" id="4" weight="89.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kesq.com" target="kion546.com" id="5" weight="107.5">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kesq.com" target="kron4.com" id="6" weight="9.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kesq.com" target="northbaybusinessjournal.com" id="7" weight="46.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kesq.com" target="kmir.com" id="8" weight="24.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kesq.com" target="ktla.com" id="9" weight="110.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kion546.com" target="keyt.com" id="10" weight="96.6">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kion546.com" target="http://www.hoffmania.com/" id="11" weight="101.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="http://www.hoffmania.com/" target="LA Times" id="12" weight="37.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="yourcentralvalley.com" target="KGET" id="13" weight="75.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="keyt.com" target="ktla.com" id="14" weight="101.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kron4.com" target="ktla.com" id="15" weight="85.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kron4.com" target="sanfrancisco.cbslocal.com" id="16" weight="16.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="ktla.com" target="El Cerrito Journal" id="17" weight="47.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="ktla.com" target="sanfrancisco.cbslocal.com" id="18" weight="62.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="sanfrancisco.cbslocal.com" target="gooddaysacramento.cbslocal.com" id="19" weight="109.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="San Diego Voice and Viewpoint" target="Inland Valley News" id="20" weight="82.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="nbcbayarea.com" target="nbclosangeles.com" id="21" weight="49.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="nbcbayarea.com" target="nbcsandiego.com" id="22" weight="48.5">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="nbcsandiego.com" target="nbclosangeles.com" id="23" weight="45.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="www.record-bee.com" target="Ukiah Daily Journal" id="24" weight="127.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="| www.theacornonline.com | The Acorn Online - In Print and on the Web" target="mpacorn.com" id="25" weight="128.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2024-04-08">
+    <creator>NetworkX 2.6.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="1" title="dist_list" type="long" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="dset" type="string" />
+    </attributes>
+    <nodes>
+      <node id="KTSM" label="KTSM">
+        <attvalues>
+          <attvalue for="0" value="texas" />
+        </attvalues>
+      </node>
+      <node id="yourvalleyvoice.com" label="yourvalleyvoice.com">
+        <attvalues>
+          <attvalue for="0" value="texas" />
+        </attvalues>
+      </node>
+      <node id="cbs19.tv" label="cbs19.tv">
+        <attvalues>
+          <attvalue for="0" value="texas" />
+        </attvalues>
+      </node>
+      <node id="kxas nbc 5" label="kxas nbc 5">
+        <attvalues>
+          <attvalue for="0" value="texas" />
+        </attvalues>
+      </node>
+      <node id="myhighplains.com" label="myhighplains.com">
+        <attvalues>
+          <attvalue for="0" value="texas" />
+        </attvalues>
+      </node>
+      <node id="khou.com" label="khou.com">
+        <attvalues>
+          <attvalue for="0" value="texas" />
+        </attvalues>
+      </node>
+      <node id="kvue.com" label="kvue.com">
+        <attvalues>
+          <attvalue for="0" value="texas" />
+        </attvalues>
+      </node>
+      <node id="newswest9.com" label="newswest9.com">
+        <attvalues>
+          <attvalue for="0" value="texas" />
+        </attvalues>
+      </node>
+      <node id="kagstv.com" label="kagstv.com">
+        <attvalues>
+          <attvalue for="0" value="texas" />
+        </attvalues>
+      </node>
+      <node id="kxan.com" label="kxan.com">
+        <attvalues>
+          <attvalue for="0" value="texas" />
+        </attvalues>
+      </node>
+      <node id="12newsnow.com" label="12newsnow.com">
+        <attvalues>
+          <attvalue for="0" value="texas" />
+        </attvalues>
+      </node>
+      <node id="ktsa.com" label="ktsa.com">
+        <attvalues>
+          <attvalue for="0" value="texas" />
+        </attvalues>
+      </node>
+      <node id="ksat.com" label="ksat.com">
+        <attvalues>
+          <attvalue for="0" value="texas" />
+        </attvalues>
+      </node>
+      <node id="kiiitv.com" label="kiiitv.com">
+        <attvalues>
+          <attvalue for="0" value="texas" />
+        </attvalues>
+      </node>
+      <node id="bigcountryhomepage.com" label="bigcountryhomepage.com">
+        <attvalues>
+          <attvalue for="0" value="texas" />
+        </attvalues>
+      </node>
+      <node id="WFAA ABC" label="WFAA ABC">
+        <attvalues>
+          <attvalue for="0" value="texas" />
+        </attvalues>
+      </node>
+      <node id="Austin American-Statesman " label="Austin American-Statesman ">
+        <attvalues>
+          <attvalue for="0" value="texas" />
+        </attvalues>
+      </node>
+      <node id="click2houston.com" label="click2houston.com">
+        <attvalues>
+          <attvalue for="0" value="texas" />
+        </attvalues>
+      </node>
+      <node id="dfw.cbslocal.com" label="dfw.cbslocal.com">
+        <attvalues>
+          <attvalue for="0" value="texas" />
+        </attvalues>
+      </node>
+      <node id="cw39.com" label="cw39.com">
+        <attvalues>
+          <attvalue for="0" value="texas" />
+        </attvalues>
+      </node>
+      <node id="kvia.com" label="kvia.com">
+        <attvalues>
+          <attvalue for="0" value="texas" />
+        </attvalues>
+      </node>
+      <node id="abc13.com" label="abc13.com">
+        <attvalues>
+          <attvalue for="0" value="texas" />
+        </attvalues>
+      </node>
+      <node id="newsradioklbj.com" label="newsradioklbj.com">
+        <attvalues>
+          <attvalue for="0" value="texas" />
+        </attvalues>
+      </node>
+      <node id="thekatynews.com" label="thekatynews.com">
+        <attvalues>
+          <attvalue for="0" value="texas" />
+        </attvalues>
+      </node>
+      <node id="setexasrecord.com" label="setexasrecord.com">
+        <attvalues>
+          <attvalue for="0" value="texas" />
+        </attvalues>
+      </node>
+      <node id="defendernetwork.com" label="defendernetwork.com">
+        <attvalues>
+          <attvalue for="0" value="texas" />
+        </attvalues>
+      </node>
+      <node id="tpr.org" label="tpr.org">
+        <attvalues>
+          <attvalue for="0" value="texas" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="KTSM" target="ktsa.com" id="0" weight="63.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="KTSM" target="kxas nbc 5" id="1" weight="91.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kxas nbc 5" target="ktsa.com" id="2" weight="53.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kxas nbc 5" target="tpr.org" id="3" weight="8.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kxas nbc 5" target="dfw.cbslocal.com" id="4" weight="103.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="thekatynews.com" target="setexasrecord.com" id="5" weight="46.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
