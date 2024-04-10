@@ -1,0 +1,63 @@
+2024-02-27 16:44:16,081 INFO    StreamThr :1527008 [internal.py:wandb_internal():86] W&B internal server running at pid: 1527008, started at: 2024-02-27 16:44:16.080711
+2024-02-27 16:44:16,084 DEBUG   HandlerThread:1527008 [handler.py:handle_request():146] handle_request: status
+2024-02-27 16:44:16,086 INFO    WriterThread:1527008 [datastore.py:open_for_write():87] open: /home/sagar/trans-fer-entropy/article_filtering/wandb/run-20240227_164410-zbfbcsh7/run-zbfbcsh7.wandb
+2024-02-27 16:44:16,087 DEBUG   SenderThread:1527008 [sender.py:send():382] send: header
+2024-02-27 16:44:16,087 DEBUG   SenderThread:1527008 [sender.py:send():382] send: run
+2024-02-27 16:44:16,366 INFO    SenderThread:1527008 [dir_watcher.py:__init__():211] watching files in: /home/sagar/trans-fer-entropy/article_filtering/wandb/run-20240227_164410-zbfbcsh7/files
+2024-02-27 16:44:16,366 INFO    SenderThread:1527008 [sender.py:_start_run_threads():1136] run started: zbfbcsh7 with start time 1709070255.180911
+2024-02-27 16:44:16,377 DEBUG   HandlerThread:1527008 [handler.py:handle_request():146] handle_request: check_version
+2024-02-27 16:44:16,378 DEBUG   SenderThread:1527008 [sender.py:send_request():409] send_request: check_version
+2024-02-27 16:44:16,442 DEBUG   HandlerThread:1527008 [handler.py:handle_request():146] handle_request: run_start
+2024-02-27 16:44:16,443 DEBUG   HandlerThread:1527008 [system_info.py:__init__():27] System info init
+2024-02-27 16:44:16,444 DEBUG   HandlerThread:1527008 [system_info.py:__init__():42] System info init done
+2024-02-27 16:44:16,444 INFO    HandlerThread:1527008 [system_monitor.py:start():194] Starting system monitor
+2024-02-27 16:44:16,444 INFO    SystemMonitor:1527008 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-02-27 16:44:16,444 INFO    HandlerThread:1527008 [system_monitor.py:probe():214] Collecting system info
+2024-02-27 16:44:16,445 INFO    SystemMonitor:1527008 [interfaces.py:start():190] Started cpu monitoring
+2024-02-27 16:44:16,446 INFO    SystemMonitor:1527008 [interfaces.py:start():190] Started disk monitoring
+2024-02-27 16:44:16,447 INFO    SystemMonitor:1527008 [interfaces.py:start():190] Started gpu monitoring
+2024-02-27 16:44:16,448 INFO    SystemMonitor:1527008 [interfaces.py:start():190] Started memory monitoring
+2024-02-27 16:44:16,450 INFO    SystemMonitor:1527008 [interfaces.py:start():190] Started network monitoring
+2024-02-27 16:44:16,497 DEBUG   HandlerThread:1527008 [system_info.py:probe():151] Probing system
+2024-02-27 16:44:16,498 DEBUG   HandlerThread:1527008 [system_info.py:_probe_git():136] Probing git
+2024-02-27 16:44:16,508 DEBUG   HandlerThread:1527008 [system_info.py:_probe_git():144] Probing git done
+2024-02-27 16:44:16,508 DEBUG   HandlerThread:1527008 [system_info.py:probe():199] Probing system done
+2024-02-27 16:44:16,508 DEBUG   HandlerThread:1527008 [system_monitor.py:probe():223] {'os': 'Linux-5.15.0-91-generic-x86_64-with-glibc2.31', 'python': '3.11.4', 'heartbeatAt': '2024-02-27T21:44:16.497217', 'startedAt': '2024-02-27T21:44:10.084686', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/home/sagar/trans-fer-entropy/article_filtering/01-sk-filter_testing.ipynb', 'codePathLocal': '01-sk-filter_testing.ipynb', 'git': {'remote': 'https://github.com/asmithh/trans-fer-entropy.git', 'commit': '5f879b0948c77608e6cfd7cc3c9a0acb68c5d39c'}, 'email': 'szkumar6@gmail.com', 'root': '/home/sagar/trans-fer-entropy', 'host': 'storyteller', 'username': 'sagar', 'executable': '/home/sagar/anaconda3/bin/python', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 1.2556666666666665, 'min': 1200.0, 'max': 4000.0}, 'cpu_freq_per_core': [{'current': 1.293, 'min': 1200.0, 'max': 4000.0}, {'current': 1.2, 'min': 1200.0, 'max': 4000.0}, {'current': 1.2, 'min': 1200.0, 'max': 4000.0}, {'current': 1.2, 'min': 1200.0, 'max': 4000.0}, {'current': 1.2, 'min': 1200.0, 'max': 4000.0}, {'current': 1.2, 'min': 1200.0, 'max': 4000.0}, {'current': 1.2, 'min': 1200.0, 'max': 4000.0}, {'current': 1.5, 'min': 1200.0, 'max': 4000.0}, {'current': 1.2, 'min': 1200.0, 'max': 4000.0}, {'current': 1.2, 'min': 1200.0, 'max': 4000.0}, {'current': 1.2, 'min': 1200.0, 'max': 4000.0}, {'current': 1.2, 'min': 1200.0, 'max': 4000.0}], 'disk': {'/': {'total': 45.63156509399414, 'used': 30.542972564697266}}, 'gpu': 'NVIDIA TITAN Xp', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA TITAN Xp', 'memory_total': 12884901888}], 'memory': {'total': 125.71525573730469}}
+2024-02-27 16:44:16,508 INFO    HandlerThread:1527008 [system_monitor.py:probe():224] Finished collecting system info
+2024-02-27 16:44:16,508 INFO    HandlerThread:1527008 [system_monitor.py:probe():227] Publishing system info
+2024-02-27 16:44:16,508 DEBUG   HandlerThread:1527008 [system_info.py:_save_conda():208] Saving list of conda packages installed into the current environment
+2024-02-27 16:44:17,368 INFO    Thread-26 :1527008 [dir_watcher.py:_on_file_created():271] file/dir created: /home/sagar/trans-fer-entropy/article_filtering/wandb/run-20240227_164410-zbfbcsh7/files/conda-environment.yaml
+2024-02-27 16:44:22,627 DEBUG   HandlerThread:1527008 [system_info.py:_save_conda():220] Saving conda packages done
+2024-02-27 16:44:22,627 INFO    HandlerThread:1527008 [system_monitor.py:probe():229] Finished publishing system info
+2024-02-27 16:44:22,628 DEBUG   HandlerThread:1527008 [handler.py:handle_request():146] handle_request: status_report
+2024-02-27 16:44:22,628 DEBUG   HandlerThread:1527008 [handler.py:handle_request():146] handle_request: keepalive
+2024-02-27 16:44:22,629 DEBUG   SenderThread:1527008 [sender.py:send():382] send: files
+2024-02-27 16:44:22,629 INFO    SenderThread:1527008 [sender.py:_save_file():1403] saving file wandb-metadata.json with policy now
+2024-02-27 16:44:22,642 DEBUG   HandlerThread:1527008 [handler.py:handle_request():146] handle_request: python_packages
+2024-02-27 16:44:22,642 DEBUG   SenderThread:1527008 [sender.py:send_request():409] send_request: python_packages
+2024-02-27 16:44:22,643 DEBUG   SenderThread:1527008 [sender.py:send():382] send: telemetry
+2024-02-27 16:44:22,644 DEBUG   SenderThread:1527008 [sender.py:send():382] send: telemetry
+2024-02-27 16:44:22,648 DEBUG   HandlerThread:1527008 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-27 16:44:22,649 DEBUG   SenderThread:1527008 [sender.py:send_request():409] send_request: stop_status
+2024-02-27 16:44:22,689 DEBUG   HandlerThread:1527008 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-27 16:44:22,885 INFO    wandb-upload_0:1527008 [upload_job.py:push():131] Uploaded file /tmp/tmpoaucncn0wandb/xyfgqlo4-wandb-metadata.json
+2024-02-27 16:44:23,369 INFO    Thread-26 :1527008 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sagar/trans-fer-entropy/article_filtering/wandb/run-20240227_164410-zbfbcsh7/files/conda-environment.yaml
+2024-02-27 16:44:23,369 INFO    Thread-26 :1527008 [dir_watcher.py:_on_file_created():271] file/dir created: /home/sagar/trans-fer-entropy/article_filtering/wandb/run-20240227_164410-zbfbcsh7/files/requirements.txt
+2024-02-27 16:44:23,369 INFO    Thread-26 :1527008 [dir_watcher.py:_on_file_created():271] file/dir created: /home/sagar/trans-fer-entropy/article_filtering/wandb/run-20240227_164410-zbfbcsh7/files/output.log
+2024-02-27 16:44:23,370 INFO    Thread-26 :1527008 [dir_watcher.py:_on_file_created():271] file/dir created: /home/sagar/trans-fer-entropy/article_filtering/wandb/run-20240227_164410-zbfbcsh7/files/wandb-metadata.json
+2024-02-27 16:44:25,369 INFO    Thread-26 :1527008 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/sagar/trans-fer-entropy/article_filtering/wandb/run-20240227_164410-zbfbcsh7/files/output.log
+2024-02-27 16:44:26,805 DEBUG   HandlerThread:1527008 [handler.py:handle_request():146] handle_request: status_report
+2024-02-27 16:44:31,806 DEBUG   HandlerThread:1527008 [handler.py:handle_request():146] handle_request: status_report
+2024-02-27 16:44:36,807 DEBUG   HandlerThread:1527008 [handler.py:handle_request():146] handle_request: status_report
+2024-02-27 16:44:37,643 DEBUG   HandlerThread:1527008 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-27 16:44:37,644 DEBUG   HandlerThread:1527008 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-27 16:44:37,644 DEBUG   SenderThread:1527008 [sender.py:send_request():409] send_request: stop_status
+2024-02-27 16:44:42,467 INFO    cpu       :1527008 [interfaces.py:monitor():140] Process cpu has exited.
+2024-02-27 16:44:42,467 DEBUG   SystemMonitor:1527008 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-02-27 16:44:42,467 DEBUG   SystemMonitor:1527008 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-02-27 16:44:42,467 DEBUG   SystemMonitor:1527008 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-02-27 16:44:42,469 DEBUG   SenderThread:1527008 [sender.py:send():382] send: stats
+2024-02-27 16:44:42,470 DEBUG   HandlerThread:1527008 [handler.py:handle_request():146] handle_request: status_report
+2024-02-27 16:44:42,471 INFO    memory    :1527008 [interfaces.py:monitor():140] Process proc.memory.rssMB has exited.
+2024-02-27 16:44:43,449 INFO    MainThread:1527008 [internal.py:handle_exit():76] Internal process exited
+2024-02-27 16:44:43,449 INFO    MainThread:1527008 [internal.py:handle_exit():76] Internal process exited

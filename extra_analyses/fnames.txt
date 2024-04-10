@@ -1,0 +1,3 @@
+{state}_similarity_nyt_fox.gexf: all outlets that had similarity scores (txt + title) between them for $state
+states.gexf: between-state avg similarity scores (txt + title)
+

@@ -91,7 +91,7 @@ def symbolic_transfer_entropy(x: list[float],
     :param y: random variable
     :param w: symbol window length
     :param s: sliding window time
-    :return: transfer entropy from x to y, in bits
+    :return: transfer entropy from y to x, in bits
     """
 
     # define the ensemble space

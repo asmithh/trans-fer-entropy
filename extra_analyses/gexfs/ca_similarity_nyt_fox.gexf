@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2024-04-08">
+    <creator>NetworkX 2.6.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="1" title="dist_list" type="long" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="dset" type="string" />
+    </attributes>
+    <nodes>
+      <node id="kcra.com" label="kcra.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="kesq.com" label="kesq.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="kion546.com" label="kion546.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="yourcentralvalley.com" label="yourcentralvalley.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="keyt.com" label="keyt.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="kron4.com" label="kron4.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="ktla.com" label="ktla.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="fox5sandiego.com" label="fox5sandiego.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="ksbw.com" label="ksbw.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="nbcbayarea.com" label="nbcbayarea.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="nbcsandiego.com" label="nbcsandiego.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="abc30.com" label="abc30.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="920kvec.com" label="920kvec.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="ksro.com" label="ksro.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="jweekly.com" label="jweekly.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="knzr.com" label="knzr.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="davisvanguard.org" label="davisvanguard.org">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="www.record-bee.com" label="www.record-bee.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="nbclosangeles.com" label="nbclosangeles.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="mpacorn.com" label="mpacorn.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+      <node id="northbaybusinessjournal.com" label="northbaybusinessjournal.com">
+        <attvalues>
+          <attvalue for="0" value="california" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="kcra.com" target="ksbw.com" id="0" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kesq.com" target="keyt.com" id="1" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kesq.com" target="kion546.com" id="2" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kesq.com" target="kron4.com" id="3" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kesq.com" target="northbaybusinessjournal.com" id="4" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kesq.com" target="ktla.com" id="5" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kion546.com" target="keyt.com" id="6" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="keyt.com" target="ktla.com" id="7" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="kron4.com" target="ktla.com" id="8" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="nbcbayarea.com" target="nbclosangeles.com" id="9" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="nbcbayarea.com" target="nbcsandiego.com" id="10" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="nbcsandiego.com" target="nbclosangeles.com" id="11" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

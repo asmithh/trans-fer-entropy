@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2024-04-08">
+    <creator>NetworkX 2.6.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="1" title="dist_list" type="long" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="dset" type="string" />
+    </attributes>
+    <nodes>
+      <node id="wkbn.com" label="wkbn.com">
+        <attvalues>
+          <attvalue for="0" value="ohio" />
+        </attvalues>
+      </node>
+      <node id="wdtn.com" label="wdtn.com">
+        <attvalues>
+          <attvalue for="0" value="ohio" />
+        </attvalues>
+      </node>
+      <node id="limaohio.com" label="limaohio.com">
+        <attvalues>
+          <attvalue for="0" value="ohio" />
+        </attvalues>
+      </node>
+      <node id="wlwt.com" label="wlwt.com">
+        <attvalues>
+          <attvalue for="0" value="ohio" />
+        </attvalues>
+      </node>
+      <node id="morningjournal.com" label="morningjournal.com">
+        <attvalues>
+          <attvalue for="0" value="ohio" />
+        </attvalues>
+      </node>
+      <node id="fox8.com" label="fox8.com">
+        <attvalues>
+          <attvalue for="0" value="ohio" />
+        </attvalues>
+      </node>
+      <node id="examiner.org" label="examiner.org">
+        <attvalues>
+          <attvalue for="0" value="ohio" />
+        </attvalues>
+      </node>
+      <node id="news-herald.com" label="news-herald.com">
+        <attvalues>
+          <attvalue for="0" value="ohio" />
+        </attvalues>
+      </node>
+      <node id="cleveland.com" label="cleveland.com">
+        <attvalues>
+          <attvalue for="0" value="ohio" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="wkbn.com" target="wdtn.com" id="0" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="wdtn.com" target="limaohio.com" id="1" weight="150.0">
+        <attvalues>
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
